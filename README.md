@@ -49,7 +49,12 @@ Reference finetune.py
 
 ### Blind Eval
 -------------
+<p 
 Reference blineval.py and data in /data/ directory.
 
-
+Evalution
+=============
+<p align="center">
+<img src="images/eval_table.PNG" width="800 height =800">
+</p>
 
