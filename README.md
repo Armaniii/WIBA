@@ -1,12 +1,15 @@
 # $\text{WIBA}$
  $\text{An LLM-based Approach For Comprehensive Argument Mining}$
- 
- <img src="images/ATN.PNG" width="400 height =400">
+ <p align="center">
+ <img src="images/pipeline.png" width="400 height = 400 align=right">
+ </p>
  
 Overview
 =============
 This repository contains the scripts necessary to create and reproduce the results from our paper, WIBA: An LLM-based Approach for Comprehensive Argument Mining.
-
+<p align="center">
+<img src="images/ATN.PNG" width="400 height =400">
+</p>
 
 ### Out-the-box-use
 --------------
