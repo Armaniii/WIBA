@@ -1,6 +1,6 @@
 # $\text{WIBA}$
  $\text{An LLM-based Approach For Comprehensive Argument Mining}$
-
+![](https://github.com/Armaniii/WIBA/edit/main/images/ATN.PNG?raw=true)
  
 Overview
 =============
