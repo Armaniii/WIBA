@@ -152,6 +152,11 @@ data['argument_predictions'] = results
 
 ### WIBA Platform
 -------------
+
+<p align="center">
+<img src="images/wiba_platform.png" width="600 height =600">
+</p>
+
 Access, for free, the WIBA toolkit at https://wiba.dev. For WIBA-Detect & WIBA-Extract tasks, upload a .csv file with a column you want to analyze named `text`. For WIBA-Stance, you must also have an additional column with the topic information, named `topic`. Current limit for file-sizes are unknown, and processing time is around 8-10 rows/sec, so some manual calculation for time-to-completetion is necessary. Common errors will be caught and announced on the screen. Consider using the Manual Entry section as a playground to get an idea of WIBAs capabilities.
 
 #### Submit a bug
