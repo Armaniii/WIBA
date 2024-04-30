@@ -52,11 +52,6 @@ python3 finetuning.py --training_data "path/to/training/data" --task "argument-c
 ### Out-the-box Usage (HF)
 --------------
 
-#### WIBA-Detect
-**Note:  LLaMa models are gated. Access their huggingface repo to request a token for access. https://huggingface.co/meta-llama/Meta-Llama-3-8B**
-
-- To use ungated WIBA-detect model with similar performance, replace model path with _"armaniii/mistral-argument-classification"_
-
 ```
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, LlamaForSequenceClassification, BitsAndBytesConfig, pipeline
@@ -72,6 +67,12 @@ data = pd.read_csv('/path/to/your/data')
 # convert to Dataset object for easier mapping and batching
 data = Dataset.from_pandas(data)
 ```
+
+#### WIBA-Detect
+**Note:  LLaMa models are gated. Access their huggingface repo to request a token for access. https://huggingface.co/meta-llama/Meta-Llama-3-8B**
+
+- To use ungated WIBA-detect model with similar performance, replace model path with _"armaniii/mistral-argument-classification"_
+
 Source: https://huggingface.co/armaniii/llama-3-8b-argument-detection
 ```
 model = LlamaForSequenceClassification.from_pretrained("armaniii/llama-3-8b-argument-detection",num_labels=2, torch_dtype.float16,device_map="auto",low_cpu_mem_usage = True, token=YOUR_HF_TOKEN_HERE, quantization_config = bnb_config)
