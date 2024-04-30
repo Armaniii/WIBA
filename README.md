@@ -94,9 +94,9 @@ for out in tqdm(pipe(prompts_generator,batch_size=4)):
 data['argument_predictions'] = results
 ```
 
-Source: https://huggingface.co/armaniii/llama-3-8b-claim-topic-extraction
 #### WIBA-Extract
-No ungated model available. Use our platform for access at https://wiba.dev
+Source: https://huggingface.co/armaniii/llama-3-8b-claim-topic-extraction
+- No ungated model available. Use our platform for access at https://wiba.dev
 
 ```
 model = AutoModelForCausalLM.from_pretrained("armaniii/llama-3-8b-claim-topic-extraction",torch_dtype.float16,device_map="auto",low_cpu_mem_usage = True, token=YOUR_HF_TOKEN_HERE, quantization_config = bnb_config)
@@ -152,11 +152,11 @@ data['argument_predictions'] = results
 
 ### WIBA Platform
 -------------
-Access, for free, the WIBA toolkit at https://wiba.dev. For WIBA-Detect & WIBA-Extract tasks, upload a .csv file with a column you want to analyze named `text`. For WIBA-Stance, you must also have an additional column with the topic information, named `topic`. Current limit for file-sizes are unknown, and processing time is around 8-10 rows/sec, so some manual calculation is necessary. Common errors will be caught and announced on the screen. Consider using the Manual Entry section as a playground to get an idea of WIBAs capabilities.
+Access, for free, the WIBA toolkit at https://wiba.dev. For WIBA-Detect & WIBA-Extract tasks, upload a .csv file with a column you want to analyze named `text`. For WIBA-Stance, you must also have an additional column with the topic information, named `topic`. Current limit for file-sizes are unknown, and processing time is around 8-10 rows/sec, so some manual calculation for time-to-completetion is necessary. Common errors will be caught and announced on the screen. Consider using the Manual Entry section as a playground to get an idea of WIBAs capabilities.
 
 #### Submit a bug
 wiba.dev is still under development and is not perfect. If you find a bug or have any suggestions, please email me at airan002@ucr.edu. We will do our best to fix any issues ASAP. 
-
+- Adding a progress bar is currently under development.
 
 ### Data
 -------------
