@@ -60,11 +60,17 @@ python3 finetuning.py --training_data "path/to/training/data" --task "argument-c
 ```
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, LlamaForSequenceClassification, BitsAndBytesConfig, pipeline
+from datasets import Dataset
+
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_use_double_quant=False,
     bnb_4bit_quant_type="nf4",
     bnb_4bit_compute_dtype=torch.float16)
+
+data = pd.read_csv('/path/to/your/data')
+# convert to Dataset object for easier mapping and batching
+data = Dataset.from_pandas(data)
 ```
 Source: https://huggingface.co/armaniii/llama-3-8b-argument-detection
 ```
