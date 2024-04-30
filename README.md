@@ -1,14 +1,14 @@
 # $\text{WIBA}$
  $\text{An LLM-based Approach For Comprehensive Argument Mining}$
  <p align="center">
- <img src="images/pipeline.png" width="400 height = 400 align=right">
+ <img src="images/pipeline_v2.png" width="400 height = 400 align=right">
  </p>
  
 Overview
 =============
 This repository contains the scripts necessary to create and reproduce the results from our paper, WIBA: An LLM-based Approach for Comprehensive Argument Mining.
 <p align="center">
-<img src="images/ATN.PNG" width="400 height =400">
+<img src="images/ATN_v2.PNG" width="400 height =400">
 </p>
 
 ### Out-the-box-use
@@ -55,6 +55,6 @@ Reference blineval.py and data in /data/ directory.
 Evalution
 =============
 <p align="center">
-<img src="images/eval_table.PNG" width="800 height =800">
+<img src="images/eval_table_v2.PNG" width="800 height =800">
 </p>
 
