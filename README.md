@@ -94,7 +94,7 @@ model_arg.resize_token_embeddings(len(tokenizer_arg))
 # Using Pipeline
 pipe = pipeline(task="text-classification", model=model_arg, tokenizer=tokenizer_arg,padding=True,truncation=True,device_map="auto",max_length=2048,torch_dtype=torch.float16)
 
-data= data.map(lambda x: {"sentence":[ f"[INST] <<SYS>>\n{system_message_arg.strip()}\n<</SYS>>\n\n" + "Text: '" + sentence +"' [/INST] " for sentence in x['text']]}, batched=True)
+data= data.map(lambda x: {"sentence":[ f"[INST] <<SYS>>\n{system_message.strip()}\n<</SYS>>\n\n" + "Text: '" + sentence +"' [/INST] " for sentence in x['text']]}, batched=True)
 inputs = data['sentence']
 prompts_generator = (p for p in inputs)
 results = []
@@ -121,7 +121,7 @@ tokenizer.padding_side = "left"
 
 # Using Pipeline
 pipe = pipeline('text-generation', model=model, tokenizer=tokenizer,max_new_tokens=8,device_map="auto",torch_dtype=torch.float16,pad_token_id=128009)
-data= data.map(lambda x: {"sentence":[ f'<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n{system_message_cte.strip()}<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n' + sentence +'<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n' for sentence in x['text']]}, batched=True)
+data= data.map(lambda x: {"sentence":[ f'<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n{system_message.strip()}<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n' + sentence +'<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n' for sentence in x['text']]}, batched=True)
 inputs = data['sentence']
 prompts_generator = (p for p in inputs)
 results = []
@@ -149,7 +149,7 @@ model_arg.resize_token_embeddings(len(tokenizer_arg))
 # Using Pipeline
 pipe = pipeline(task="text-classification", model=model_arg, tokenizer=tokenizer_arg,padding=True,truncation=True,device_map="auto",max_length=2048,torch_dtype=torch.float16)
 
-data= data.map(lambda x: {"sentence":[ f"[INST] <<SYS>>\n{system_message_arg.strip()}\n<</SYS>>\n\n" + "Target: '" + topic +"' Text: '" +inputs  + "' [/INST] " for topic,inputs in zip(x['topic'],x['text'])]}, batched=True)
+data= data.map(lambda x: {"sentence":[ f"[INST] <<SYS>>\n{system_message.strip()}\n<</SYS>>\n\n" + "Target: '" + topic +"' Text: '" +inputs  + "' [/INST] " for topic,inputs in zip(x['topic'],x['text'])]}, batched=True)
 inputs = data['sentence']
 prompts_generator = (p for p in inputs)
 results = []
