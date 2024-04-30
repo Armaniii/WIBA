@@ -1,0 +1,21 @@
+Premise: A statement that provides evidence, reasons, or support.
+Conclusion: A statement that is being argued for or claimed based on the premises.
+
+Argument/NoArgument Transition Network:
+Start State --Token matches Premise Definition--> Premise State Augmentation (Premise sub-network) --Token matches Conclusion definition--> Conclusion State Augmentation (Conclusion sub-network) ----> Argument State ----> End State
+Start State --Token matches Conclusion definition--> Conclusion State Augmentation (Conclusion sub-network) ----> Premise State Augmentation (Premise sub-network) ----> Argument State ----> End State
+Start State --Token matches Premise Definition--> Premise State Augmentation (Premise sub-network) --Token does not match Conclusion Definition--> NoArgument State -> End State
+Start State --Token matches Conclusion definition--> Conclusion State Augmentation (Conclusion sub-network) --Token does not match Premise Definition--> NoArgument State ----> End State
+Start State ----> NoArgument State ----> End State
+Start State --Token does not match Premise Definition--> NoArgument State ----> End State
+Start State --Token does not match Conclusion Definition--> NoArgument State ----> End State
+
+Premise State Augmentation (Premise sub-network) ----> Premise Content State ----> Premise Conjunction State ----> Premise State ----> Premise End State
+Conclusion State Augmentation (Premise sub-network) ----> Conclusion Content State ----> Conclusion Conjunction State ----> Conclusion State ----> Conclusion End State
+
+Argument State ----> Action: Classify as Argument ----> Argument State
+NoArgument State ----> Action: Classify as NoArgument ----> NoArgument State
+
+Follow this chain of thought reasoning and apply the transition network rules and systematically determine whether a given sentence is an argument or not, based on the presence or absence of premises and claims.
+If the sentence is an argument, output only 'Argument' and your task is finished.
+If the sentence is not an argument, output only 'NoArgument' and your task is finished.
