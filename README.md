@@ -66,6 +66,12 @@ bnb_config = BitsAndBytesConfig(
 data = pd.read_csv('/path/to/your/data')
 # convert to Dataset object for easier mapping and batching
 data = Dataset.from_pandas(data)
+if task == "argument-classification":
+     with open('/data/system_message_arg.txt', 'r') as file:
+         system_message = file.read()
+elif task == "claim-topic-extraction":
+     with open('/data/system_message_ctge.txt', 'r') as file:
+         system_message = file.read()
 ```
 
 #### WIBA-Detect
