@@ -1,0 +1,501 @@
+﻿id,rank,argument,context,stance,topic,Manual ,train,test
+4038,0,"The disease would grow stronger by mutating on the entire population, it is best to save it for really sick oeople",Flu-vaccination-should-not-be-mandatory,con,Flu Vaccine,1,TRUE,FALSE
+1352,0,Gambling is betting on risky investments which ignites emotions for those with competitive nature and is (competitive) fun like when fav your sports team wins/lose. Humans are responsible to make it good or bad,Gambling-should-not-be-banned,con,Gambling,1,FALSE,TRUE
+2826,0,Platforms such as Facebook MessengerKids; still has an unclear privacy policy. Such platforms unless regulated by Govt policies are bound to tend towards sharing user's data across platforms/orgs/service partners & finally compromising the objective.,Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+34,0,A black market for these drugs will be more wide spread' because their will be more research and development of the drugs.,We-should-ban-doping-in-sport,con,Doping in Sport,1,FALSE,TRUE
+132,0,"Already today many athlets use drugs, but these drugs are medically verified because they aren't regulated, which means the illegal drugs are more likely to harm the participants",We-should-legalize-doping-in-sport,pro,Doping in Sport,1,TRUE,FALSE
+4962,0,When we catch an athlete who dope we don't solve the problem because he may be one among many but we do lower the reputation of athletes and sports.,We-should-legalize-doping-in-sport,pro,Doping in Sport,1,FALSE,TRUE
+1893,0.083333333,Innovation forces change. Change is good. Please continue.,We-should-promote-autonomous-cars,con,Autonomous Cars,1,TRUE,FALSE
+960,0.083333333,Driving a car by self has proven most of times beneficial for mental health and sense of happiness. The mere control of ride sets human into powerful position.,We-should-limit-autonomous-cars,pro,Autonomous Cars,1,FALSE,TRUE
+3080,0.1,Social Media conversations can lead the user to believing the conversations are private but allowing the Social Media provider full access to the content of those conversations,Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+1923,0.1,"It's the frog in the boiling water problem. Expose children little by little to violent images and they will lose their ability to be shocked, and therefore moved to stop it.",We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,FALSE,TRUE
+2009,0.111111111,It is not easy to regulate gambling because it is not easy to catch gamblers in the act.,Gambling-should-not-be-banned,con,Gambling,1,TRUE,FALSE
+1942,0.111111111,It enables harmful (and good) comments but postings can be unattributed; a user can be invisible. Inevitably personal and social harm arises : recipients exposed to negativity; users not accountable; regulatory governance lags behind too far.,Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+1942,0.111111111,It enables harmful (and good) comments but postings can be unattributed; a user can be invisible. Inevitably personal and social harm arises : recipients exposed to negativity; users not accountable; regulatory governance lags behind too far.,Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+4974,0.111111111,While information privacy is important to everyone but the absence of it is feared mostly by the persons who always keep hidden agendas which is not in line with the law of land,We-should-discourage-information-privacy-laws,con,Information Privacy Laws,1,FALSE,TRUE
+1084,0.125,Flu is less likely to spread because there is less contact with people who have it,Flu-vaccination-should-be-mandatory,pro,Flu Vaccine,1,TRUE,FALSE
+1459,0.125,"Gambling should not be banned, part of the free of will should include what to do. As soon as you are making no harm to a third person.",Gambling-should-not-be-banned,con,Gambling,1,FALSE,TRUE
+2016,0.125,It is safer because it is decentralized so people won't be scammed,We-should-adopt-cryptocurrency,pro,Cryptocurrency,1,TRUE,FALSE
+4603,0.125,"Violent children lead to more interesting societies, which is why we should use video games to make the, more violent",We-should-allow-the-sale-of-violent-video-games-to-minors,con,Violent Video Games,1,FALSE,TRUE
+4606,0.125,"Violent games are unlikely to meaningfully effect children't behavior, especially since they have already been consuming violent tv and movies.",We-should-allow-the-sale-of-violent-video-games-to-minors,con,Violent Video Games,1,TRUE,FALSE
+467,0.125,"Autonomous cars will reduce the need for drivers, and those people will lose jobs. Taxi drivers, truck drivers, deliver people and other drivers are the backbone of this great country we call USA!",We-should-limit-autonomous-cars,pro,Autonomous Cars,1,FALSE,TRUE
+1026,0.142857143,"Even winning is bad. Those who win don't know what to do with their money, are likely to spend it quickly on new things, and are volunurable to scummers, so eventually they are more harmed.",Gambling-should-be-banned,pro,Gambling,1,TRUE,FALSE
+580,0.142857143,"Because animals are thinking, sentient creatures, it is a violation of their rights to kill them when it is not absolutely necessary for us.",We-should-adopt-vegetarianism,pro,Vegetarianism,1,FALSE,TRUE
+3053,0.142857143,"Smart contracts mean that deals or investing can occur without a need for trust, increasing the amount people are willing to put in.",We-should-adopt-cryptocurrency,pro,Cryptocurrency,1,TRUE,FALSE
+4889,0.142857143,"We should not stop the development of autonomous cars, but we need proper assignment of responsibility to their makers, else safety will fall short.",We-should-promote-autonomous-cars,con,Autonomous Cars,1,FALSE,TRUE
+3901,0.153846154,Sports gambling is engaging and sparks discussion and deeper analysis of the team and situational factors associated with success,Gambling-should-not-be-banned,con,Gambling,1,TRUE,FALSE
+2764,0.153846154,People sharing their views on an issue has become easy via social media. Sitting in your home or office you would have never known if you are the only one with that POV,Social-media-brings-more-good-than-harm,con,Social Media,1,FALSE,TRUE
+1196,0.166666667,Gambling activity is a symptom of other societal ills. Fix the sources of the problem and gambling activity will be much less common and destructive.,Gambling-should-not-be-banned,con,Gambling,1,TRUE,FALSE
+3885,0.166666667,"Something good in one country may be bad in other country. So, we should consider only the universal facts such as violence, obscenity, using negative languages etc. Social media should filter this.",Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+4028,0.166666667,"The current benchmark for autonomous cars is a guarantee of no injuries or fatalities, but in comparison we accept the risk of driving. Autonomous cars simply need to be better than human drivers to be justified.",We-should-promote-autonomous-cars,con,Autonomous Cars,1,TRUE,FALSE
+2796,0.181818182,"People who express their opinion on social media are usually the loudest and more extreme, so any attempt to understand what the poeple want by a politician is doomed to be wrong and disruptive",Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+3424,0.181818182,Social media encourages replacing the natural face to face contact with a digital way of contact that lacking the nuances of intonation and body language.,Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+994,0.181818182,Eating meat is very enjoying to alot of people and a big part of their culture and life style. If we move to vegetarianism we will reduce human happiness.,We-should-abandon-vegetarianism,con,Cryptocurrency,1,FALSE,TRUE
+156,0.181818182,Animals does not feel pain the way we do. Animal suffering is not the same as Human suffering and therefore it is not as immoral.,We-should-abandon-vegetarianism,con,Cryptocurrency,1,TRUE,FALSE
+4660,0.181818182,Violent video games may decrease crime because people are busy playing the games instead of committing violent acts.,We-should-allow-the-sale-of-violent-video-games-to-minors,con,Violent Video Games,1,FALSE,TRUE
+5178,0.181818182,fossil fuels are bad for the country because of your country dont have them they have to be in an inferior position to ather countrys.,We-should-ban-fossil-fuels,pro,Fossil Fuels,1,TRUE,FALSE
+916,0.181818182,Doping happens anyway and when it is illigale the sport is unfair to the regular athelits,We-should-legalize-doping-in-sport,pro,Doping in Sport,1,FALSE,TRUE
+404,0.181818182,"Autonomous cars will create a huge reduction in transplant organs, leading to horrible murders",We-should-limit-autonomous-cars,pro,Autonomous Cars,1,TRUE,FALSE
+898,0.1875,Dog fail videos are hilarious and boost the spirits of people who watch them. Laughter is the best medicine.,Social-media-brings-more-good-than-harm,con,Social Media,1,FALSE,TRUE
+1266,0.2,"Gambling has good attributes to it. It does make people happy, often reduces pressure, and gives people hope. The latter is especially true for the poor - whose lives are otherwise often hopeless.",Gambling-should-not-be-banned,con,Gambling,1,TRUE,FALSE
+1356,0.2,Gambling is cool - if successful it could change not only ones life but also could change an entire family.,Gambling-should-not-be-banned,con,Gambling,1,FALSE,TRUE
+2946,0.2,"Regulation is bad, there is a market for gambling so it should be allowed. let market decide",Gambling-should-not-be-banned,con,Gambling,1,TRUE,FALSE
+2894,0.2,"Privacy protection law may affect new entrants to some business as they don't have the capabilities (legal, procees etc.) that bigger companies have. A not well thought data protection law may create a barrier to entry",We-should-discourage-information-privacy-laws,con,Information Privacy Laws,1,FALSE,TRUE
+2900,0.2,"Privacy will decrease, argues David Brin in his book ""The Transparent Society"". Miniature cameras and microphones, mosquito size or smaller ""drones"", means privacy of centrally stored info becomes less vital.",We-should-discourage-information-privacy-laws,con,Information Privacy Laws,1,TRUE,FALSE
+2149,0.2,"Like vitamins, doping can be healthy in correct amount, sports give a controlled environmentto improve the field",We-should-legalize-doping-in-sport,pro,Doping in Sport,1,FALSE,TRUE
+152,0.214285714,"Animals are a lot like ants, they are alive but do not live meaningful lives like humens, just like were allowed to kill ants we should be allowed to eat meat and not be vegetarian",We-should-abandon-vegetarianism,con,Cryptocurrency,1,TRUE,FALSE
+3524,0.214285714,Social media has the potential to do good only if designed for good. The algorithms of today's largest platforms as facebook are focused on adds and profit and not collective good.,Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+2584,0.222222222,"Online shopping is simply a new way to shop. It's innovation, I don't see why we should go backwards.",Online-shopping-brings-more-good-than-harm,con,Online Shopping,1,TRUE,FALSE
+3044,0.222222222,Since people believe the grass is always greener in the other feed they don't feel comfortable sharing of their hardships and iddues that leads to an isolated sociey unaware of the things people are going through.,Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+3445,0.222222222,Social media favors tech savvy people and do not reach older people. Hence a major part of the population do not participate in the sharing of knowledge going on in social media which could challenge democrazy.,Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+5355,0.222222222,"social media gets lots of people addicted to it, making them constantly worried about their posts and causes them stress instead of living the moment with the people around them",Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+243,0.230769231,Athletes who take steroids are tearing more tendons and ligaments because their muscles have gotten too big for their bodies.,We-should-ban-doping-in-sport,con,Doping in Sport,1,TRUE,FALSE
+5252,0.235294118,"it is moral to eat meat as animals are less developed than humans and the circle of life is built on predator eating prey, and they are prey",We-should-abandon-vegetarianism,con,Cryptocurrency,1,FALSE,TRUE
+1047,0.25,Everything we do involves risk which is effectively gambling so it makes no sense to seek its banning.,Gambling-should-not-be-banned,con,Gambling,1,TRUE,FALSE
+1209,0.25,"Gambling can be addictive, but then so can watching television or working out, so banning something on the grounds of addiction is not compelling.",Gambling-should-not-be-banned,con,Gambling,1,FALSE,TRUE
+4113,0.25,"The human seller can help greatly to the shopper - he knows the market well, the offered product, and can use its experience to find the best product for the shopper",Online-shopping-brings-more-good-than-harm,con,Online Shopping,1,TRUE,FALSE
+1762,0.25,"In a virtual world, individual thoughts (which might be violating societal norms) are becoming more evident as one can post them anonymously.",Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+2666,0.25,"Pain and suffer are bad, with less animals dying because of vegetarianism, the world will be a better place",We-should-adopt-vegetarianism,pro,Vegetarianism,1,TRUE,FALSE
+5336,0.25,sheep's digesting gases are known to have bad effect on the ozone layer of the atmosphere. if more people will be vegetarian consequently their will be less sheep in the world.,We-should-adopt-vegetarianism,pro,Vegetarianism,1,FALSE,TRUE
+1042,0.25,Everyone who watches violent things ended up being violent himself and childhood is the time when we take inspiration from what we see and what we like.,We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,TRUE,FALSE
+4813,0.25,We should legalize doping in sport because it is unfair to impose one group's ethical standards for what is and is not fair in sport onto everyone else without their consent.,We-should-legalize-doping-in-sport,pro,Doping in Sport,1,FALSE,TRUE
+5103,0.25,"alternative energy sources also have externalities, such as the heating of water in hydroelectric systems, the destruction of natural habitats for the field required to produce solar energy etc. we might actually make climate change worse.",We-should-not-ban-fossil-fuels,con,Fossil Fuels,1,TRUE,FALSE
+103,0.266666667,"Agricultural crop fields also kill animals, so vegetarianism doesn't actually save animal life.",We-should-abandon-vegetarianism,con,Cryptocurrency,1,FALSE,TRUE
+603,0.266666667,"Being vegetarians makes it harder for people you eat with, since they have to accommodate your harsh preference.",We-should-abandon-vegetarianism,con,Cryptocurrency,1,TRUE,FALSE
+4858,0.272727273,We should not ban gambling because it is a victim-less crime.,Gambling-should-not-be-banned,con,Gambling,1,FALSE,TRUE
+4859,0.272727273,We should not ban gambling because it is unenforceable and undermines people's respect for the law as a whole.,Gambling-should-not-be-banned,con,Gambling,1,TRUE,FALSE
+4861,0.272727273,We should not ban gambling because there is no compelling public interest not to have people gambling.,Gambling-should-not-be-banned,con,Gambling,1,FALSE,TRUE
+1632,0.272727273,"I think social media shall develop more to increasing people engagement area and not on adv, behaviour data collecting, marketing, selling and monetisation",Social-media-brings-more-good-than-harm,con,Social Media,1,TRUE,FALSE
+2966,0.272727273,"SM brings the information, knowledge that you can never have before, the news feed is based on what you're interested in &amp; the people you follow, so it's you who decide whether it's harmful or not",Social-media-brings-more-good-than-harm,con,Social Media,1,FALSE,TRUE
+3175,0.272727273,"Social media allowes people to stay in touch with eachother, by sending masseges, sharing pictures, and forming groups.",Social-media-brings-more-good-than-harm,con,Social Media,1,TRUE,FALSE
+2949,0.272727273,Renewable energy is being developed and in the mean time it is just cheaper to use Fossil fuels,We-should-not-ban-fossil-fuels,con,Fossil Fuels,1,FALSE,TRUE
+880,0.272727273,Development of an automotive vehicle should not be stopped. It is possible to reduce the burden on a person driving a car as an occupation by automatic driving.,We-should-promote-autonomous-cars,con,Autonomous Cars,1,TRUE,FALSE
+4026,0.277777778,The cost of preventing the disease is cheper then curing it thus is will save mony for the medical institution,Flu-vaccination-should-be-mandatory,pro,Flu Vaccine,1,FALSE,TRUE
+2465,0.277777778,"Online shopping brings more good than harm because it is harder for governments to regulate, which means that repressive laws have less control over adults' decisions.",Online-shopping-brings-more-good-than-harm,con,Online Shopping,1,TRUE,FALSE
+4255,0.277777778,The switch to autonomous cars will make people very angry since they will have to get rid of all of their old cars even if they still work.,We-should-limit-autonomous-cars,pro,Autonomous Cars,1,FALSE,TRUE
+1126,0.285714286,"Forcing people to taking vaccination is like forcing them to pay seatbelt , it's a simple act that can prevent a lot of pain , and we already forcing them to do that",Flu-vaccination-should-be-mandatory,pro,Flu Vaccine,1,TRUE,FALSE
+1536,0.285714286,"Hard to help those in need. A black market is likely to be formed, but now we won't know who the gamblers are, and won't be able to provide help to their suffering family.",Gambling-should-not-be-banned,con,Gambling,1,FALSE,TRUE
+4133,0.285714286,"The internet is better than sitting in front of the TV, at least you might learn something.",Social-media-brings-more-good-than-harm,con,Social Media,1,TRUE,FALSE
+3298,0.285714286,Social media can be addictive for some people and therefore should be treated as drugs.,Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+3040,0.285714286,"Since not controll by any bank, when the value it has crashes there is no relayble way to increase it again.",We-should-abandon-cryptocurrency,con,Cryptocurrency,1,TRUE,FALSE
+218,0.285714286,"At its core, cryptocurrency is a medium of exchange but lacks an important component, practical and convenient use. Its only when cryptocurrencies replace traditional payment methods that we will start to see worldwide adoption.",We-should-adopt-cryptocurrency,pro,Cryptocurrency,1,FALSE,TRUE
+4579,0.285714286,Video game rating models are not sufficient to protect minors as they lack global harmonisation,We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,TRUE,FALSE
+4839,0.285714286,We should not ban fossil fuels because future technology will likely be able to undo their harms to the environment.,We-should-not-ban-fossil-fuels,con,Fossil Fuels,1,FALSE,TRUE
+2390,0.285714286,Not supporting autonomous cars is having the will to reverse the progress of all humanity to levels prior to the Bronze Age. Man must seek happiness even if it leads to its elimination by sock-shaped-mutan-alien.,We-should-promote-autonomous-cars,con,Autonomous Cars,1,TRUE,FALSE
+1286,0.3,"Gambling is a form of entertainment. It's no different than going to see a movie. When you exit the movie theatre, or a casino, your money is gone. In both cases, you were entertained.",Gambling-should-not-be-banned,con,Gambling,1,FALSE,TRUE
+2940,0.3,Reduces barriers of entry and therefore allows more competition which helps in the long rub,Online-shopping-brings-more-good-than-harm,con,Online Shopping,1,TRUE,FALSE
+3411,0.3,Social media enables people to make information that is not true or supported by any evidence publicly known and mistaken by truth,Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+5459,0.3,"we would all benefit from living in a less polluted, slightly more expensive environment. but individually, less polluting and more expensive business models can't compete. it's a collective action problem only solvable by the state.",We-should-ban-fossil-fuels,pro,Fossil Fuels,1,TRUE,FALSE
+4766,0.3,"We should ban fossil fuels because even though it would be painful, the alternative is an anthropocene mass extinction.",We-should-ban-fossil-fuels,pro,Fossil Fuels,1,FALSE,TRUE
+2250,0.3,Mchines have better reflexes compared to humans preventing accidents,We-should-promote-autonomous-cars,con,Autonomous Cars,1,TRUE,FALSE
+1725,0.3,"If we fail to treat Personal Information data with the same protections as Watson training data, we are an organization of hypocrites. We require it of ourselves, and should demand it of others.",We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,FALSE,TRUE
+2673,0.307692308,Parents of infants can't be vaccinated and they are more exposed to a harsher disease. This hurts them and their children which could also get dick disproportionately and in a likely fashion.,Flu-vaccination-should-be-mandatory,pro,Flu Vaccine,1,TRUE,FALSE
+4111,0.307692308,"The house always wins, so there is no point in trying to beat a casino",Gambling-should-be-banned,pro,Gambling,1,FALSE,TRUE
+2455,0.307692308,Online shopping are good for both physical and no physical market because before buying online people see products in physical ones and maybe there they would buy also something else,Online-shopping-brings-more-good-than-harm,con,Online Shopping,1,TRUE,FALSE
+1653,0.307692308,If all my cryptocurrency disappears overnight then who I call... no one and that's the problem.,We-should-abandon-cryptocurrency,con,Cryptocurrency,1,FALSE,TRUE
+1707,0.333333333,If the government bans gambling then it will no longer be able to collect high taxes that it puts into public spending.,Gambling-should-not-be-banned,con,Gambling,1,TRUE,FALSE
+1460,0.333333333,"Gambling should not be banned. Although I do not gamble, I think the opportunity for others to participate in gambling is important in a free society.",Gambling-should-not-be-banned,con,Gambling,1,FALSE,TRUE
+665,0.333333333,"By shopping online, shoppers stay off the roads, making everyone safer.",Online-shopping-brings-more-good-than-harm,con,Online Shopping,1,TRUE,FALSE
+3634,0.333333333,Social media is creating a negative sociological impact since most of the commonly watched material is pushed no one validates the sanctity of the information and envisaging the impact it would create on someones mind,Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+4152,0.333333333,"The meat industry is a major polluter, If we all become vegetarian we will minimize pollution and help the enviorment.",We-should-adopt-vegetarianism,pro,Vegetarianism,1,TRUE,FALSE
+4287,0.4,The way social media is used is corrosive. Used as a sales platform to attract friends by posting a dishonest overwhelmingly positive view of their life. This makes their friends strive to exceed reducing self worth,Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+4138,1,The law should have provisions for everyone to be able to easier control what information is shared about them and to whom.,We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,TRUE,FALSE
+4594,1,Violation of information privacy may cause severe distress and even trauma. Government should protect the citizens from such violations.,We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,FALSE,TRUE
+4740,1,"We need to enforce privacy laws in all AI bot/systems built by companies/Government built using models/data from individual data to not result in discriminatory results to coerce, make political/ financial gain and control our choices.",We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,TRUE,FALSE
+4904,1,"We should support information privacy laws that reasonably support a person's ability to select what, who, with whom and when their private information is shared. This will lead to increased trust in our critical online institutions.",We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,FALSE,TRUE
+5468,1,"while it is true that people share information willingly, they do not consent to selling their information. We need privacy laws to ensure that people give there consent.",We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,TRUE,FALSE
+2655,1,Our information belongs to us and should not be freely used to advertise at us. Laws are ultimately the only way to deter bad practice.,We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,FALSE,TRUE
+1690,1,"If limitations are not put in place, companies will be encouraged to gather as much information on individuals as possible in order to monetize it.",We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,TRUE,FALSE
+1716,1,If we accept that people have a right to privacy then it follows that information privacy should also be protected by law.,We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,FALSE,TRUE
+855,1,Data privacy laws will ensure every party treats personal data with a bigger sense of responsibility because of the punishable consequences. It will keep us conscious of our actions with data,We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,TRUE,FALSE
+1016,1,"Even if one has concerns about the deployment of autonomous cars, stopping their development is unwise because new things can be learned and it is likely they have some future role to play.",We-should-promote-autonomous-cars,con,Autonomous Cars,1,FALSE,TRUE
+1728,1,"If we were to stop the development of autonomous cars, we would eliminate an avenue for potentially ending automotive homicide as we currently know it.",We-should-promote-autonomous-cars,con,Autonomous Cars,1,TRUE,FALSE
+2171,1,"Machines are just better than humans at executing algorithmic tasks, such as driving. As a consequence, autonomous cars will perform better than human drivers.",We-should-promote-autonomous-cars,con,Autonomous Cars,1,FALSE,TRUE
+4619,1,Violent interactions in video games at an early age can promote a disconnect between socially and morally acceptable interactions in real world scenarios.,We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,TRUE,FALSE
+4659,1,Violent video games may cause minors to view violence as a trivial matter and therefore distort their worldview and saturate their empathy towards real life tragedies.,We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,FALSE,TRUE
+4661,1,Violent video games normalise actions that are not acceptable in society. Minors are learning what is and is not acceptable and therefore are at greater risk of anti-social behaviour.,We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,TRUE,FALSE
+5438,1,"violent video games create a false idea of reality in the minor's mind, one in which violence is the common way of solving problems, thus making them more violent",We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,FALSE,TRUE
+1715,1,"If violent video games can be shown to cause minors to develop unhealthy behaviors, we have an obligation to ban.",We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,TRUE,FALSE
+4765,1,We should ban fossil fuels because burning fossil fuels contributes to global warming.,We-should-ban-fossil-fuels,pro,Fossil Fuels,1,FALSE,TRUE
+1720,1,"If we ban fossil fuels, society will have no choice but to adopt clean energy technologies, which would be a step in the right direction for our environment",We-should-ban-fossil-fuels,pro,Fossil Fuels,1,TRUE,FALSE
+4886,1,We should not legalize doping in sport because the long term effects of doping are not well understood and there could be serious harms to people's health.,We-should-ban-doping-in-sport,con,Doping in Sport,1,FALSE,TRUE
+2115,1,"Legalization of doping will place pressure on individual players to dope since they will be at an automatic disadvantage if they don't, preventing them from having a meaningful choice.",We-should-ban-doping-in-sport,con,Doping in Sport,1,TRUE,FALSE
+919,1,"Doping has been illegal for the vast majority of modern sports history, and making it legal now would diminish the accomplishments of athletes of the past.",We-should-ban-doping-in-sport,con,Doping in Sport,1,FALSE,TRUE
+1072,1,"Fans are against doping in the vast majority of sports, so legalizing doping would drive away fans of the sport and ultimately hurt the game.",We-should-ban-doping-in-sport,con,Doping in Sport,1,TRUE,FALSE
+2265,1,"Meat production and consumption is one of the largest vectors for disease outbreak in many areas, and adopting widespread vegetarianism would alleviate these harms.",We-should-adopt-vegetarianism,pro,Vegetarianism,1,FALSE,TRUE
+4157,1,"The meat industry is responsible for a large part of global CO2 emmissions. If a large portion of the population becomes vegetarian, this will be significantly reduced.",We-should-adopt-vegetarianism,pro,Vegetarianism,1,TRUE,FALSE
+4760,1,"We should adopt vegetarianism because the livestock industry facilitates the spread of disease from animals to people, such as the avian flu or SARS.",We-should-adopt-vegetarianism,pro,Vegetarianism,1,FALSE,TRUE
+565,1,"Banning it will make the games seem more interesting, like a cookie they must not eat. This will make them more likely to download it illegally, or tell their parents to buy it.",We-should-allow-the-sale-of-violent-video-games-to-minors,con,Violent Video Games,1,TRUE,FALSE
+4867,1,"We should not ban the sale of violent video games to minors because the definition of excessive violence is arbitrary and only reflects the values of the reviewer, not society as a whole.",We-should-allow-the-sale-of-violent-video-games-to-minors,con,Violent Video Games,1,FALSE,TRUE
+5428,1,video game content is regulated and proper warnings allow for smart consuming of this media. banning the sale to minors would increase pirating which usually leads to even more violet content,We-should-allow-the-sale-of-violent-video-games-to-minors,con,Violent Video Games,1,TRUE,FALSE
+790,1,Cryptocurrencies can formalize and give rise to markets in regions of the world in which a central monetary authority or government is non-existent or incompetent.,We-should-adopt-cryptocurrency,pro,Cryptocurrency,1,FALSE,TRUE
+3036,1,"Since cryptocurrency is a creation of the private sphere, companies can compete to provide the most efficient and versatile crypto to nations.",We-should-adopt-cryptocurrency,pro,Cryptocurrency,1,TRUE,FALSE
+4982,1,"While the bank can be hacked physically or digitally, control of cryptocurrency is distributed across millions of computers and therefore much more secure.",We-should-adopt-cryptocurrency,pro,Cryptocurrency,1,FALSE,TRUE
+616,1,Bitcoin makes international exchange less expensive because there are lower transaction fees,We-should-adopt-cryptocurrency,pro,Cryptocurrency,1,TRUE,FALSE
+3763,1,"Social media primarily shows the posts of people that have similar opinions to you. The result is more eco-chambers, where people aren't aware of other opinions, and therefore a more polarized social discourse.",Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+3368,1,"Social media creates an environment where people are becoming less comfortable interacting with others in real life. This is harming our social abilities and in the end, people feel more lonely.",Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+1980,1,It is easy to voice our opinions online where we don't face the consequences of our words. This has led to a rise in cyber-bullying and real people are being hurt by social media.,Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+1067,1,"Fake news can cause misleading information, which results in the world misjudging the situation.",Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+3813,1,Social media sites help employers find employees and job-seekers find work: 96% of recruiters use social media in the recruiting process.,Social-media-brings-more-good-than-harm,con,Social Media,1,FALSE,TRUE
+3480,1,Social media has allowed participants in obscure interests to organize and do more impressive things by enabling connections,Social-media-brings-more-good-than-harm,con,Social Media,1,TRUE,FALSE
+3276,1,"Social media brings more good than harm because it lets people share their art and music, especially for people who would have been excluded from those industries in past decades.",Social-media-brings-more-good-than-harm,con,Social Media,1,FALSE,TRUE
+2626,1,"Online shopping requires transferring important personal data into the virtual space, making it more vulnerable to hackers attacks and misuse of information.",Online-shopping-brings-more-harm-than-good,pro,Online Shopping,1,TRUE,FALSE
+1394,1,Gambling is so prevalent in human societies that banning it completely is simply impossible and will only cause the creation of larger community of illegal gambling.,Gambling-should-not-be-banned,con,Gambling,1,FALSE,TRUE
+4142,1,"The main benefit of vaccines is to those with suppressed immune systems who can't take them themselves, through herd immunity. Since most people don't have the necessary motive, mandating the vaccine is necessary.",Flu-vaccination-should-be-mandatory,pro,Flu Vaccine,1,TRUE,FALSE
+2135,0.933333333,Letting people choose what others know about them is important to mental well-being and personal autonomy.,We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,FALSE,TRUE
+3147,0.933333333,"Social Media tends to be focused on the highlights of people's lives and creates an unrealistic metric that other people compare themselves to, which may lead to serious mental health issues.",Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+3367,0.933333333,Social media creates an environment of complete distraction and interruption and distracts from progress toward meaningful education and self improvement.,Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+3679,0.933333333,"Social media is quickly replacing responsible journalism and is exposing people to unverified and unedited information, thereby accelerating political division and destabilizing world governments.",Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+3224,0.928571429,Social media allows people to self organise and protest against opression. The arab spring was a great example of this.,Social-media-brings-more-good-than-harm,con,Social Media,1,FALSE,TRUE
+4938,0.928571429,When gambling is illegal and there is a black market of it the money goes to fund criminal activity and gives organized crime far more power than they would otherwise have,Gambling-should-not-be-banned,con,Gambling,1,TRUE,FALSE
+5231,0.923076923,"in 2010, 81% of the 5.5 million car accidents in the US were caused by human error. Autonomous cars can lead to a massive reduction in traffic accidents, injuries, and deaths.",We-should-promote-autonomous-cars,con,Autonomous Cars,1,FALSE,TRUE
+147,0.923076923,"An individual's ""Personal"" information ie; Social Security number, personal credit, investment, savings accounts, medical info. etc. must be protected by privacy laws and security to help deter the proliferation of identity theft.",We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,TRUE,FALSE
+23,0.923076923,"A 2014 peer-reviewed study in the Journal of the American Medical Association found that habitual violent video game playing had a causal link with increased, long-term, aggressive behavior.",We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,FALSE,TRUE
+2923,0.923076923,"Psychology research has shown correlations between violent video games and deteriorating mental health later in life. Therefore, violent video games should be banned for minors during crucial cognitive development stages.",We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,TRUE,FALSE
+479,0.923076923,Autonomous cars will take away jobs which are really needed because there's no way to replace or retrain those people in the short term,We-should-limit-autonomous-cars,pro,Autonomous Cars,1,FALSE,TRUE
+2978,0.923076923,Self driving cars are not flexible enough to deal with complex driving conditions which require complex understanding of the surrounding world.,We-should-limit-autonomous-cars,pro,Autonomous Cars,1,TRUE,FALSE
+3210,0.923076923,"Social media allows others to bully without conscience, which is too high a price to pay for simply keeping in touch",Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+3437,0.923076923,"Social media facilitates anonymous interaction with others, and this interaction can allow people communicate negative and distasteful ideas that they would not present in a face-to-face setting.",Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+834,0.916666667,Currently there are large numbers of people who can't drive either due to disability or disease. Autonomous cars frees these people from being transportation deficient.,We-should-promote-autonomous-cars,con,Autonomous Cars,1,FALSE,TRUE
+4623,0.916666667,Violent video game players learn to associate violence with pleasure (rewards for hurting another character). This undermines moral sensitivity.,We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,TRUE,FALSE
+356,0.916666667,Autonomous cars open the door to devastating cyber-terrorism attacks: By hacking into cars it will be possible to seriously harm many thousands of people at once and without warning,We-should-limit-autonomous-cars,pro,Autonomous Cars,1,FALSE,TRUE
+3138,0.916666667,Social Media opens the door to more recurrent online bullying because of an extra 24/7 constant social interaction with people whether one chooses or not,Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+1847,0.909090909,"Information is an asset; and like any asset, security measures are necessary to maintain its integrity.",We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,FALSE,TRUE
+2903,0.909090909,Private information needs to be protected like ownership of property is legally protected. Private information is property as well.,We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,TRUE,FALSE
+3919,0.909090909,Strong information privacy laws will protect people by making sure internet companies do not misuse people's data,We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,FALSE,TRUE
+4451,0.909090909,"Today, personal data in combination with social media outlets can be used to influence behavior, commercially and politically. This can do more harm than good, so strict information privacy laws are necessary.",We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,TRUE,FALSE
+315,0.909090909,"Autonomous cars can make highway traffic more efficient, reducing emissions and leading to a better environmental outcome.",We-should-promote-autonomous-cars,con,Autonomous Cars,1,FALSE,TRUE
+318,0.909090909,Autonomous cars can potentially communicate with one another and create a safe driving environment decreasing accidents significantly.,We-should-promote-autonomous-cars,con,Autonomous Cars,1,TRUE,FALSE
+1567,0.909090909,"Humans are notoriously bad drivers so even if autonomous vehicles are not yet perfect, over time they can significantly improve accident rates, congestion, pollution, and reduce insurance costs.",We-should-promote-autonomous-cars,con,Autonomous Cars,1,FALSE,TRUE
+945,0.909090909,"Doping would allow athletes to maximize their athletic ability, and so legalizing doping would increase the overall quality of sports.",We-should-legalize-doping-in-sport,pro,Doping in Sport,1,TRUE,FALSE
+2199,0.909090909,"Many athletes need supplements in order to recover properly from training and injuries that naturally arise from sport, so legalizing doping would allow for the best treatments for athletes when they are injured.",We-should-legalize-doping-in-sport,pro,Doping in Sport,1,FALSE,TRUE
+452,0.909090909,Autonomous cars will need to choose between alternatives involving loss of human life and they cannot have the wisdom to chose wisely as a human might be able to.,We-should-limit-autonomous-cars,pro,Autonomous Cars,1,TRUE,FALSE
+673,0.909090909,Cars are an obsolete means of transport and we should focus more on replacing them than improving them by focusing on production of a self-driving car.,We-should-limit-autonomous-cars,pro,Autonomous Cars,1,FALSE,TRUE
+4299,0.909090909,There are far too many 'random events' on the road that will make it close to impossible for autonomous vehicles to be deployed safely on the roads.,We-should-limit-autonomous-cars,pro,Autonomous Cars,1,TRUE,FALSE
+4348,0.909090909,"There is broad consensus among medical associations, pediatricians, parents, and researchers that violent video games increase aggressive behavior.",We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,FALSE,TRUE
+4773,0.909090909,"We should ban fossil fuels because it would force us to pivot to biodegradable plastics, since the most common non-biodegradable ones are oil-based.",We-should-ban-fossil-fuels,pro,Fossil Fuels,1,TRUE,FALSE
+3768,0.909090909,"Social media promotes group think, as we tend to seek out like minded acquaintances, and ignore those whom with whom we disagree. This leads to the closing of the mind to new ideas.",Social-media-brings-more-harm-than-good,pro,Social Media,1,FALSE,TRUE
+475,0.9,"Autonomous cars will save energy since they can be more efficiently controlled for speed, acceleration and braking",We-should-promote-autonomous-cars,con,Autonomous Cars,1,TRUE,FALSE
+4258,0.9,"The technology behind autonomous cars will also facilitate better public transit, through better buses, shared taxis, and routes that can change to adapt to demand, which will reduce the number of single-person car trips.",We-should-promote-autonomous-cars,con,Autonomous Cars,1,FALSE,TRUE
+4799,0.9,We should ban the sale of violent video games to minors because they crowd out other more beneficial forms of media for young people.,We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,TRUE,FALSE
+4970,0.9,"While children may not mimic the exact actions that they see in violent video games, these games do lead to minors being more aggressive in their daily lives.",We-should-ban-the-sale-of-violent-video-games-to-minors,pro,Violent Video Games,1,FALSE,TRUE
+4158,0.9,The meat industry is treating animals poorly. Without the meat industry we have less suffering of animals.,We-should-adopt-vegetarianism,pro,Vegetarianism,1,TRUE,FALSE
+4159,0.9,The meat industry requires more plants per unit of energy gained by eating than plant based diets do. Vegetarianism therefore means less production - less production means less pollution,We-should-adopt-vegetarianism,pro,Vegetarianism,1,FALSE,TRUE
+656,0.9,"By making it legal, we are creating a culture in sports where you have to use in order to stay competitive, which means everyone will use regardless of their will.",We-should-ban-doping-in-sport,con,Doping in Sport,1,TRUE,FALSE
+2910,0.9,"Professional athletes are role models and if they are allowed to dope, kids will start doping too.",We-should-ban-doping-in-sport,con,Doping in Sport,1,FALSE,TRUE
+4882,0.9,We should not legalize doping in sport because it would create an arms race where every top athlete had to dope as much as possible to remain competitive.,We-should-ban-doping-in-sport,con,Doping in Sport,1,TRUE,FALSE
+31,0.9,"A ban on fossil fuels would push people to drive less and carpool more often, this would decrease traffic which would be good for the environment and productivity.",We-should-ban-fossil-fuels,pro,Fossil Fuels,1,FALSE,TRUE
+3770,0.9,"Social media promotes one-way conversation where a person is shielded from social cues and pushes out diatribes that are immune from pushback, feedback, or social discomfort.",Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+4247,0.9,"The speed at which crypto is transferred allows for easier mobilization of capital, reducing the harms of financial crises.",We-should-adopt-cryptocurrency,pro,Cryptocurrency,1,FALSE,TRUE
+3518,0.9,Social media has now become a very potent tool in the hands of rogue people and governments. Citizens in particular are being manipulated into believing fake news causing polarization in society and weakening democratic institutions.,Social-media-brings-more-harm-than-good,pro,Social Media,1,TRUE,FALSE
+4937,0.9,"When gambling is banned, it still happens illegally, given that people still want to gamble and illegal organizations can benefit. In those instances, the violence suffered by those who can't pay is much worse.",Gambling-should-not-be-banned,con,Gambling,1,FALSE,TRUE
+1845,0.888888889,"Information belongs to the user, so he/she should be the one decide what is given to who.",We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,TRUE,FALSE
+1850,0.888888889,"Information is power; without laws to restrict its use, corporations mis-use data to our collective detriment.",We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,FALSE,TRUE
+2682,0.888888889,People's information should not be a currency. Governments have a responsibility to protect this information.,We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,TRUE,FALSE
+739,0.888888889,"Communication between autonomous cars will enable them to more efficiently plan traffic flow, thereby reducing congestion, reducing travel time, and saving energy.",We-should-promote-autonomous-cars,con,Autonomous Cars,1,FALSE,TRUE
+948,0.888888889,"Driverless cars are likely to improve with use and over time, so if developed, the technology will likely be safer than humans in the future.",We-should-promote-autonomous-cars,con,Autonomous Cars,1,TRUE,FALSE
+2993,0.888888889,Self-driving cars could greatly reduce road deaths. 1.3 million people in the US die in road crashes each year. NPR reports that 94% of car crashes are caused by human error.,We-should-promote-autonomous-cars,con,Autonomous Cars,1,FALSE,TRUE
+208,0.888888889,"As technology and society evolve, our laws and regulations must also evolve. Technology is increasing the level of information exposure for every person on the planet, which requires additional protections.",We-should-support-information-privacy-laws,pro,Information Privacy Laws,1,TRUE,FALSE
+4325,0.888888889,"There are other, less extreme ways to decrease the use and discourage fossil fuels like carbon taxes or ending subsides that wouldn't cause as much of extreme economic turmoil.",We-should-not-ban-fossil-fuels,con,Fossil Fuels,1,FALSE,TRUE
+3911,0.888888889,"Steroid use is relatively safe with the advancement of modern medicine, making its use far less dangerous than when doping was banned.",We-should-legalize-doping-in-sport,pro,Doping in Sport,1,TRUE,FALSE
+863,0.888888889,"Deadly diseases like mad cow, cholera, and others start due to human's close proximity with animals, making vegetarians less likely to get these diseases.",We-should-adopt-vegetarianism,pro,Vegetarianism,1,FALSE,TRUE
+10000,0,In 2001 and 2002 Simeoni was suspended for several months for doping use.,Doping in sport,none,Doping in sport,1,TRUE,FALSE
+10001,0,"Although the number of cases is low, the Basque regional governments started introducing anti-doping measures in 1997 and created the office of Official Veterinarian in 2005 to help ensure good practice.",Doping in sport,none,Doping in sport,1,FALSE,TRUE
+10002,0,"Contador signed a commitment in which he stated: ""I am not involved in the Puerto affair nor in any other doping case"" .",Doping in sport,none,Doping in sport,1,TRUE,FALSE
+10003,0,"Noting the difficulties her sport has had with doping, she set a personal goal for the future of being ""the first world-record holder that's a clean world record"" .",Doping in sport,none,Doping in sport,1,FALSE,TRUE
+10004,0,"Gibbons was later implicated in the steroid scandal by Sports Illustrated, who uncovered receipts issued by a Florida steroid mail order company in his name .",Doping in sport,none,Doping in sport,1,TRUE,FALSE
+10005,0,"At a Congressional hearing on the subject of steroids in sports, Palmeiro categorically denied using performance-enhancing drugs, while McGwire repeatedly and somewhat conspicuously refused to answer questions on his own suspected use, saying he ""didn't want to talk about the past.""",Doping in sport,none,Doping in sport,1,FALSE,TRUE
+10006,0,"Since being elected to the Senate, Janek has focused his legislative efforts on property tax reform, and the sponsorship of a state program to prevent steroid abuse among high school athletes.",Doping in sport,none,Doping in sport,1,TRUE,FALSE
+10007,0,"On 9 November 2017, Vladimir Putin called the decisions to ban Russian athletes for doping violations an attempt by the U.S. to undermine his nation and affect the Russian presidential election in March .  ",Doping in sport,none,Doping in sport,1,FALSE,TRUE
+10008,0,"In October 1988, Sports Illustrated published a lengthy article on alleged steroid abuse in the football program at the University of South Carolina.",Doping in sport,none,Doping in sport,1,TRUE,FALSE
+10009,0,"The federal government, through grand juries, had been investigating steroid abuse since 2003.",Doping in sport,none,Doping in sport,1,FALSE,TRUE
+10010,0,"In 2005, the Illicit Drug policy was introduced to support the Anti-Doping Code, introduced in 1995, that governed AFL players.",Doping in sport,none,Doping in sport,1,TRUE,FALSE
+10011,0,"In 1998 the Festina cycling team was disgraced by a doping scandal (see Doping at the Tour de France) after a soigneur, Willy Voet, was found when crossing from Belgium to France to have drugs used for doping .",Doping in sport,none,Doping in sport,1,FALSE,TRUE
+10012,0,"The Australian delegation pointed to Thorpe's clean record, while Swimming World editor-in-chief Phillip Whitten stated his belief that Thorpe was clean: ""There is absolutely no reason to suspect Ian Thorpe is doping.",Doping in sport,none,Doping in sport,1,TRUE,FALSE
+10013,0,"In India, the federal police say that around 1.2 million children are believed to be involved in prostitution .",Prostitution,none,Prostitution,1,FALSE,TRUE
+10014,0,"Despite the fact that prostitution was seen as indispensable, city governments tried to separate ""dishonorable"" prostitution from the honorable world ",Prostitution,none,Prostitution,1,TRUE,FALSE
+10015,0,The 2007 report states that street prostitution is on the increase after an initial decline and that customers and prostitutes now use the internet and mobile phone to communicate.,Prostitution,none,Prostitution,1,FALSE,TRUE
+10016,0,"Liquor, gambling, and prostitution were ubiquitous, supported in Seattle by one of the city's founders, David Swinson ""Doc"" Maynard, who believed that well-run prostitution could be a functional part of the economy.",Prostitution,none,Prostitution,1,TRUE,FALSE
+10017,0,"Dr. Patricia Daly, chief medical health officer for Vancouver Coastal Health, was quoted as saying ""Our message has always been that you should assume sex trade workers are HIV positive",Prostitution,none,Prostitution,1,FALSE,TRUE
+10018,0,"In response to the problems associated with the involvement of organized crime into the sex trade, the Dutch government has decided to close numerous prostitution businesses.",Prostitution,none,Prostitution,1,TRUE,FALSE
+10019,0,"Caucau found herself embroiled in controversy when she claimed at a workshop on violence against children on 27 September 2005 that fathers throughout Fiji have been selling their daughters into prostitution in a ""readily available"" human trafficking market.",Prostitution,none,Prostitution,1,FALSE,TRUE
+10020,0,"In 1978, a study showed that use of drugs by prostitutes appeared to be an ""Adaptation and commitment to a deviant social role"".",Prostitution,none,Prostitution,1,TRUE,FALSE
+10021,0,"In 2013, the Supreme Court of Canada declared the laws which effectively prohibited prostitution illegal.",Prostitution,none,Prostitution,1,FALSE,TRUE
+10022,0,"As the consequence of ""three strikes laws,"" the increase in the duration of incarceration in the last decade was most pronounced in the case of life prison sentences, which increased by 83% between 1992 and 2003 while violent crimes fell in the same period ",Three-strikes law,none,Three-strikes law,1,TRUE,FALSE
+10023,0,"In the US on March 5, 2003, the U.S. Supreme Court held by a 5-4 majority that such sentences do not violate the Eighth Amendment of the U.S. Constitution, which prohibits ""cruel and unusual punishment.""",Three-strikes law,none,Three-strikes law,1,FALSE,TRUE
+10024,0,"The content industry's proposal for internet service providers to throttle, temporarily suspend, or disconnect Internet access to a subscriber who had received three warning letters of alleged copyright infringement was initially known as ""three strikes"", based on the baseball rule of ""three strikes and you're out"".",Three-strikes law,none,Three-strikes law,1,TRUE,FALSE
+10025,0,"One of the first legal documents resembling a modern penal code was enacted in 1398, which mentioned a single capital crime: a theft performed after two prior convictions (an early precursor to the current Three-strikes laws existing in several U.S. states).",Three-strikes law,none,Three-strikes law,1,FALSE,TRUE
+10026,0,"Eric Helland & Alexander Tabarrok found that California's three-strikes law has a deterrent effect and reduces third-strike arrests by 17-20%; Levitt, supra note 16, at 360-70 finding deterrence to be a more important factor than incapacitation in explaining ""the negative correlation between arrest rates and crime"" .",Three-strikes law,none,Three-strikes law,1,TRUE,FALSE
+10027,0,"In 2000, 61% of California voters supported Proposition 36, which scaled the three-strikes law back by supporting drug treatment instead of life in prison for many convicted of possessing drugs.",Three-strikes law,none,Three-strikes law,1,FALSE,TRUE
+10028,0,"ALEC has developed model bills advancing ""tough on crime"" initiatives, including ""truth in sentencing"" and ""three strikes"" laws .",Three-strikes law,none,Three-strikes law,1,TRUE,FALSE
+10029,0,"Although California's three-strikes law may have generated some controversy, ""we do not sit as a superlegislature to second-guess"" the policy choices made by particular states.",Three-strikes law,none,Three-strikes law,1,FALSE,TRUE
+10030,0,"A national Gallup Poll found that more than three-quarters of Americans had heard about the law, and of those who had, 51 percent were in favor of it against 39 percent opposed .",Three-strikes law,none,Three-strikes law,1,TRUE,FALSE
+10031,0,"One of Jones's most notable contributions while in the Assembly was authoring Proposition 184, California's three-strikes law, which passed with 72%.",Three-strikes law,none,Three-strikes law,1,FALSE,TRUE
+10032,0,"Safety standards are maintained by:  Preventing use of inappropriate usernames  Using an automatic filter which blocks profanity and other inappropriate language  Employing trained moderators to examine all content submitted for publication on the site  No advertisements or links to outside sites Users who submit extremely inappropriate material are held to a ""three strikes and you're out"" policy .",Three-strikes law,none,Three-strikes law,1,TRUE,FALSE
+10033,0,"In Lockyer v. Andrade, , the Court upheld a 50 years to life sentence with the possibility of parole imposed under California's three strikes law when the defendant was convicted of shoplifting videotapes worth a total of about $150.",Three-strikes law,none,Three-strikes law,1,FALSE,TRUE
+10034,0,"Liberal MP Irwin Cotler argued that the Conservative Party was misrepresenting the issue to the Canadian public, and noted that the sexual exploitation of persons under eighteen is already illegal under Canadian law.",Three-strikes law,none,Three-strikes law,1,TRUE,FALSE
+10035,0,"The term is apparently a back-formation of the ""three strikes, you're out"" concept embodied in the mandatory sentencing laws for repeat criminal offenders that began to be enacted in various American states in the 1990s.",Three-strikes law,none,Three-strikes law,1,FALSE,TRUE
+10036,0,Sneed ruled in favor of three-strikes law; LGBT employment discrimination; and the eviction of substance abusers by their landlords .,Three-strikes law,none,Three-strikes law,1,TRUE,FALSE
+10037,0,"Three strikes cause the family to relinquish control and then the other family gets a chance to steal the points accumulated by providing one of the remaining answers; if they fail, the family who chose to take turns answering the question receives the points.",Three-strikes law,none,Three-strikes law,1,FALSE,TRUE
+10038,0,McDonald opposed a Three Strikes Law favored by Governor Jodi Rell to mandate life terms to career violent criminals; that measure failed to pass.,Three-strikes law,none,Three-strikes law,1,TRUE,FALSE
+10039,0,"While there was a perception that most Christian groups opposed the law, Mark Tooley of the Institute on Religion and Democracy said that immigration was a political issue that ""Christians across the spectrum can disagree about"" and that liberal churches were simply more outspoken on this matter .",Three-strikes law,none,Three-strikes law,1,FALSE,TRUE
+10040,0,Lingle signed into law the Three Strikes Law and Sex Offender Registry Website Law .,Three-strikes law,none,Three-strikes law,1,TRUE,FALSE
+10041,0,"Likewise, The European Association of Internet Service Providers welcomed the verdict, commending judicial resolution to copyright infringement issues over internet filtering or three strikes policies .",Three-strikes law,none,Three-strikes law,1,FALSE,TRUE
+10042,0,Romney supports sentencing under the three strikes law .,Three-strikes law,none,Three-strikes law,1,TRUE,FALSE
+10043,0,"ONDCP stated in April 2011 that there has been a 46 percent drop in cocaine use among young adults over the past five years, and a 65 percent drop in the rate of people testing positive for cocaine in the workplace since 2006 .",Three-strikes law,none,Three-strikes law,1,FALSE,TRUE
+10044,0,A 2015 study found that three-strikes laws were associated with a 33% increase in the risk of fatal assaults on law enforcement officers .,Three-strikes law,none,Three-strikes law,1,TRUE,FALSE
+10045,0,"Jacques Chevalier filed to run for chair of the District Council as a Libertarian, but he was not successful at securing a place on the general election ballot .  ",Libertarianism,none,Libertarianism,1,FALSE,TRUE
+10046,0,"The right-libertarian economist Murray Rothbard suggested that Laozi was the first libertarian, likening Laozi's ideas on government to F.A. Hayek's theory of spontaneous order [",Libertarianism,none,Libertarianism,1,TRUE,FALSE
+10047,0,"Not all party members approved of the changes, some believing them to be a setback to libertarianism and an abandonment of what they see as the most important purpose of the Libertarian Party .",Libertarianism,none,Libertarianism,1,FALSE,TRUE
+10048,0,The association of socialism with libertarianism predates that of capitalism and many anti-authoritarians still decry what they see as a mistaken association of capitalism with libertarianism in the United States .,Libertarianism,none,Libertarianism,1,TRUE,FALSE
+10049,0,"Thomas acknowledges having ""some very strong libertarian leanings."" ",Libertarianism,none,Libertarianism,1,FALSE,TRUE
+10050,0,"Henry David Thoreau wrote: ""I heartily accept the motto, 'That government is best which governs least'; and I should like to see it acted up to more rapidly and systematically. Carried out, it finally amounts to this, which also I believe, 'That government is best which governs not at all'; and when men are prepared for it, that will be the kind of government which they will have"" ",Libertarianism,none,Libertarianism,1,TRUE,FALSE
+10051,0,"Cato has stated on its ""About Cato"" page: ""The Jeffersonian philosophy that animates Cato's work has increasingly come to be called 'libertarianism' or 'market liberalism.'",Libertarianism,none,Libertarianism,1,FALSE,TRUE
+10052,0,Croxall's anti-Catholic stance was part of the libertarian programme adopted by the Whig supporters of a Protestant succession and is manifested in a variety of ways.,Libertarianism,none,Libertarianism,1,TRUE,FALSE
+10053,0,"University of Chicago economist John Cochrane echoed this assessment by noting the political dangers of ""libertarians for Sanders"" position .  ",Libertarianism,none,Libertarianism,1,FALSE,TRUE
+10054,0,Libertarians for Life (LFL) is a nonsectarian group expressing an opposition to abortion within the context of libertarianism.,Libertarianism,none,Libertarianism,1,TRUE,FALSE
+10055,0,A survey by David Kirby and David Boaz found a minimum of 14 percent American voters to have libertarian-leaning views .,Libertarianism,none,Libertarianism,1,FALSE,TRUE
+10056,0,"Thatcherism is associated with libertarianism within the Conservative Party, albeit one of libertarian ends achieved by using strong and sometimes authoritarian leadership .",Libertarianism,none,Libertarianism,1,TRUE,FALSE
+10057,0,Libertarians are against laws that favor or harm any race or either sex.,Libertarianism,none,Libertarianism,1,FALSE,TRUE
+10058,0,Thus some libertarians felt that Miller should have been a better advocate for greater voter choice.,Libertarianism,none,Libertarianism,1,TRUE,FALSE
+10059,0,"For Christmas 2000, Levin published a libertarian critique of Dickens's popular novella A Christmas Carol in which he defends Scrooge as ""an entrepreneur whose ideas and practices benefit his employees, society at large, and himself."" .",Libertarianism,none,Libertarianism,1,FALSE,TRUE
+10060,0,"There are many philosophical disagreements among proponents of libertarianism concerning questions of ideology, values and strategy.",Libertarianism,none,Libertarianism,1,TRUE,FALSE
+10061,0,"Upon reaching the Strydpoortberg in the current Limpopo Province, Tregardt and Van Rensburg parted ways, after Tregardt argued that Van Rensburg was expending his ammunition excessively in his pursuit of ivory.",Ivory trade,none,Ivory trade,1,FALSE,TRUE
+10062,0,"The ivory trade brought arms and ammunition from Ethiopia into Toposa territory, and these were used in joint cattle raids with the Swahili on neighbouring people.",Ivory trade,none,Ivory trade,1,TRUE,FALSE
+10063,0,"Arab sellers dominated the city, and it was historically an important centre for ivory trading .",Ivory trade,none,Ivory trade,1,FALSE,TRUE
+10064,0,"Elephant hunters have historically been one of the most prestigious occupations among the Nyamwezi, since the elephant hunters could get very rich from ivory trade. The elephant hunters were organised in a guild, which only accepted those who could pass the apprenticeship and the tests that were associated with it.",Ivory trade,none,Ivory trade,1,TRUE,FALSE
+10065,0,Elephant hunting or elephant poaching and exploitation of the ivory trade are illegal in Chad and pose a major threat to elephant populations.,Ivory trade,none,Ivory trade,1,FALSE,TRUE
+10066,0,"The ivory trade greatly increased the slave trade, although it had long been important in intra- and inter-regional trade.",Ivory trade,none,Ivory trade,1,TRUE,FALSE
+10067,0,"To do this, governments and organizations want to better understand and control the ivory trade, reduce the rate of habitat loss, curtail the illegal killing of elephants, work on collecting better information to improve understanding of elephant conservation, improve cooperation and other activities .",Ivory trade,none,Ivory trade,1,FALSE,TRUE
+10068,0,"In 1986, CITES introduced a new control system involving CITES paper permits, registration of huge ivory stockpiles and monitoring of legal ivory movements. These controls were supported by most CITES parties as well as the ivory trade and the established conservation movement represented by World Wide Fund for Nature (WWF), Traffic and the International Union for Conservation of Nature (IUCN) .",Ivory trade,none,Ivory trade,1,TRUE,FALSE
+10069,0,China's State Council has announced that China is banning all ivory trade and processing activities by the end of 2017.,Ivory trade,none,Ivory trade,1,FALSE,TRUE
+10070,0,Decisions by CITES on ivory trade affect Asian elephants.,Ivory trade,none,Ivory trade,1,TRUE,FALSE
+10071,0,"Although, WWF and TRAFFIC, which supported the China sale, describe the increase in illegal ivory trade a possible ""coincidence,"" others are less cautious.",Ivory trade,none,Ivory trade,1,FALSE,TRUE
+10072,0,"However, the so-called Somalia-Proposal, presented by the governmental delegation of the Republic of Somalia, of which nature protection specialist Prof. Julian Bauer was an official member, then broke the stalemate and the elephant moratorium with its ban of elephant ivory trade was adopted by the CITES delegates.",Ivory trade,none,Ivory trade,1,TRUE,FALSE
+10073,0,The control of the gold and ivory trade greatly increased the political power of the K2 culture .,Ivory trade,none,Ivory trade,1,FALSE,TRUE
+10074,0,"Although the area is inhabited principally by the Cree, Naskapi, and Innu First Nations, thousands of temporary workers reside at Radisson to service the massive James Bay Hydroelectric Project on the La Grande and Eastmain rivers.",Temporary work,none,Temporary work,1,TRUE,FALSE
+10075,0,"A.D.I.G. (Additional Deputy Inspector-General) ""Tiger"" Kelkar has gone to Vigatpore, outside Bombay, to check on Inspector G. V. Ghote's temporary work there.",Temporary work,none,Temporary work,1,FALSE,TRUE
+10076,0,"Temporary workers, therefore, do not form a distinctly counted source of immigration .",Temporary work,none,Temporary work,1,TRUE,FALSE
+10077,0,"Japan scholar Dorinne K. Kondo compares the status of permanent and temporary workers with Bachnik's distinctions between permanent and temporary members of an ""ie"" (å®¶, see Japanese family), creating degrees of inside and outside within a firm.",Temporary work,none,Temporary work,1,FALSE,TRUE
+10078,0,"Two California cases address the issues of public employees who were improperly considered ""temporary"" when they were actually employed as regular, permanent employees.",Temporary work,none,Temporary work,1,TRUE,FALSE
+10079,0,"Working for a non-inclusive company that offers no benefits at all to permatemps, with a benefit-offering staffing firm.",Temporary work,none,Temporary work,1,FALSE,TRUE
+10080,0,The Mississippi Department of Employment Security (MDES) was awarded a $95 million National Emergency Grant (NEG) from the federal government to assist in temporary recovery jobs and to help provide job training.,Temporary work,none,Temporary work,1,TRUE,FALSE
+10081,0,"The numbers in the Perryman Group report have been disputed by an independent study conducted by the Cornell ILR Global Labor Institute, which found that while the Keystone XL would result in 2,500 to 4,650 temporary construction jobs, this impact will be reduced by higher oil prices in the Midwest, which will likely reduce national employment .",Temporary work,none,Temporary work,1,FALSE,TRUE
+10082,0,Other companies have created policies stating that temporary workers can be assigned to only specific projects that last just a few months.,Temporary work,none,Temporary work,1,TRUE,FALSE
+10083,0,The US and the EU also offered an increase in the number of temporary work visas for professional workers .,Temporary work,none,Temporary work,1,FALSE,TRUE
+10084,0,"Examples of further study include Kalleberg (2000), looking at temporary, contract and part-time work; and Bosch (2004) looking at Western European ""employment"" relationships.",Temporary work,none,Temporary work,1,TRUE,FALSE
+10085,0,Only commercial surrogacy is illegal in Belgium and the Netherlands.,Surrogacy,none,Surrogacy,1,FALSE,TRUE
+10086,0,Should a child born via surrogacy have the right to know the identity of any/all of the people involved in that child's conception and delivery?,Surrogacy,none,Surrogacy,1,TRUE,FALSE
+10087,0,"In 2006, Australian senator Stephen Conroy and his wife Paula Benson announced that they had arranged for a child to be born through egg donation and gestational surrogacy. Unusually, Conroy was put on the birth certificate as the father of the child.",Surrogacy,none,Surrogacy,1,FALSE,TRUE
+10088,0,"In conventional surrogacy, the egg which is fertilized is therefore that of the surrogate.",Surrogacy,none,Surrogacy,1,TRUE,FALSE
+10089,0,Jurisdictions that provide for pre-birth orders are also more likely to provide for some kind of enforcement of surrogacy contracts.,Surrogacy,none,Surrogacy,1,FALSE,TRUE
+10090,0,A woman may also be recognized as the legal mother of the surrogate birth mother's genetic child as long as that child was conceived with anonymous donor sperm .,Surrogacy,none,Surrogacy,1,TRUE,FALSE
+10091,0,According to the law a donor or a surrogate mother has no parental rights over the child born and the child born is legally the child of the prospective parents.,Surrogacy,none,Surrogacy,1,FALSE,TRUE
+10092,0,"In doing so, it legally defined the true mother as the woman who, according to the surrogacy agreement, intends to create and raise a child.",Surrogacy,none,Surrogacy,1,TRUE,FALSE
+10093,0,Zach voices to Kendall that he arranged the blackout to sabotage her chances of surrogacy because he wanted to protect her from a dangerous Ryan.,Surrogacy,none,Surrogacy,1,FALSE,TRUE
+10094,0,"In case the intended parent is single, he or she should be a donor to be able to have a surrogate child.",Surrogacy,none,Surrogacy,1,TRUE,FALSE
+10095,0,"abortion, euthanasia), surrogacy, the allocation of scarce health care resources (e.g.",Surrogacy,none,Surrogacy,1,FALSE,TRUE
+10096,0,"A few jurisdictions do provide for pre-birth orders, generally in only those cases when the surrogate mother is not genetically related to the expected child.",Surrogacy,none,Surrogacy,1,TRUE,FALSE
+10097,0,Surrogacy has the potential for various kinds of clash between surrogate mothers and intended parents.,Surrogacy,none,Surrogacy,1,FALSE,TRUE
+10098,0,"According to later terminology, Mary Beth would be considered a traditional surrogate, as opposed to a gestational surrogate, because she was the genetic mother of the child.",Surrogacy,none,Surrogacy,1,TRUE,FALSE
+10099,0,Ukrainian legislation allows intended parents to carry on a surrogacy program and their names will be on Birth certificate of the child born as a result of the surrogacy program from the very beginning.,Surrogacy,none,Surrogacy,1,FALSE,TRUE
+2790,0,People use their cognitive capabilities during gambling ...,Gambling-should-not-be-banned,none,Gambling,0,TRUE,FALSE
+2258,0,"Meat is delicious, the New York Strips is one of the greatest meals of all time.",We-should-abandon-vegetarianism,none,Cryptocurrency,0,FALSE,TRUE
+5240,0.071428571,it's convenient for buying ebook in original language.,Online-shopping-brings-more-good-than-harm,none,Online Shopping,1,TRUE,FALSE
+2068,0.071428571,Its a good way to make money reducing expenses,Social-media-brings-more-good-than-harm,none,Social Media,1,FALSE,TRUE
+5251,0.076923077,it is just a bit of fun there is no point in banning it,Gambling-should-not-be-banned,none,Gambling,1,TRUE,FALSE
+5422,0.1,"twitter is good actually, check out the hell dude",Social-media-brings-more-good-than-harm,none,Social Media,0,FALSE,TRUE
+1608,0.1,I have 2 answers. If they are amateurs (College/Olympic) no.,We-should-ban-doping-in-sport,none,Doping in Sport,0,TRUE,FALSE
+2374,0.1,No because we don't have the power to do it.,We-should-promote-autonomous-cars,none,Autonomous Cars,0,FALSE,TRUE
+5421,0.133333333,tweeter publish a lot of interesting news content that is exclusive.,Social-media-brings-more-good-than-harm,none,Social Media,0,TRUE,FALSE
+4461,0.133333333,Tool to make promise and belief and masses fall prey to it . For a commoner it serves as a bane.,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+3962,0.133333333,That will take us at least 50 years to stay in an autonomous car without any worries.,We-should-limit-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+5220,0.142857143,i mean maybe u can like get a package bomb if u order from a suspicious website.....,Online-shopping-brings-more-harm-than-good,none,Online Shopping,1,FALSE,TRUE
+4289,0.142857143,The world will never be ready for country songs about how your driverless car or truck left you,We-should-limit-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+4698,0.157894737,We can find solutions to solve the polosion and still use full,We-should-not-ban-fossil-fuels,none,Fossil Fuels,1,FALSE,TRUE
+1961,0.166666667,It is a great time and I can win a ton of cash,Gambling-should-not-be-banned,none,Gambling,1,TRUE,FALSE
+2148,0.166666667,Like to gamble as a form of entertainment,Gambling-should-not-be-banned,none,Gambling,0,FALSE,TRUE
+3068,0.166666667,Social Media allows you to get opinions from people quickly.,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+1392,0.181818182,Gambling is rooted in society for thousands of years.,Gambling-should-not-be-banned,none,Gambling,1,FALSE,TRUE
+4374,0.181818182,There is thrill in gambling which feels good,Gambling-should-not-be-banned,none,Gambling,1,TRUE,FALSE
+5148,0.181818182,but maybe u might not want to order from official companies cuz u want cheapness,Online-shopping-brings-more-good-than-harm,none,Online Shopping,1,FALSE,TRUE
+4460,0.181818182,Tool for propagation of various kinds of ideas and information.,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+5072,0.181818182,You cant stop it period end of story,We-should-promote-autonomous-cars,none,Autonomous Cars,0,FALSE,TRUE
+3879,0.19047619,Some players are unaware of their training regimen and the chemicals they are being fed by team staff.,We-should-ban-doping-in-sport,none,Doping in Sport,1,TRUE,FALSE
+5170,0.2,everybody should be free to invest his time and money,Gambling-should-not-be-banned,none,Gambling,0,FALSE,TRUE
+1364,0.2,"Gambling is good entertainment, and good for commerce",Gambling-should-not-be-banned,none,Gambling,1,TRUE,FALSE
+5218,0.2,i and my girlfriend loves buying shirts and shoes online,Online-shopping-brings-more-good-than-harm,none,Online Shopping,0,FALSE,TRUE
+757,0.2,Computer-controlled accounts can appear to be real people.,Social-media-brings-more-harm-than-good,none,Social Media,0,TRUE,FALSE
+852,0.2,Data privacy is breeding ground for an uneven social fabric,We-should-discourage-information-privacy-laws,none,Information Privacy Laws,1,FALSE,TRUE
+4033,0.2,The degree of restrictions enforced by privacy laws should be re-visited,We-should-discourage-information-privacy-laws,none,Information Privacy Laws,1,TRUE,FALSE
+407,0.2,Autonomous cars will damage the rent-per-hour hotel industry,We-should-limit-autonomous-cars,none,Autonomous Cars,1,FALSE,TRUE
+1182,0.2,Fun conversations with taxi and Uber drivers will be gone forever with autonomous cars.,We-should-limit-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+1136,0.2,Fossil fuels are delicious and good for your health!,We-should-not-ban-fossil-fuels,none,Fossil Fuels,0,FALSE,TRUE
+466,0.2,Autonomous cars will reduce the need for car parks in dense city areas,We-should-promote-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+1892,0.214285714,Information spread is faster than traditional way and it is less regulated.,Social-media-brings-more-good-than-harm,none,Social Media,1,FALSE,TRUE
+2745,0.222222222,People make superficial connections on social media instead of deep ones outside of it,Social-media-brings-more-harm-than-good,none,Social Media,1,TRUE,FALSE
+927,0.222222222,"Doping is happening in any case, we we should accept it.",We-should-legalize-doping-in-sport,none,Doping in Sport,1,FALSE,TRUE
+2907,0.222222222,Professional Athletes are likely to be well aware of the dangers,We-should-legalize-doping-in-sport,none,Doping in Sport,1,TRUE,FALSE
+458,0.222222222,Autonomous cars will not protect kittens from the rain,We-should-limit-autonomous-cars,none,Autonomous Cars,1,FALSE,TRUE
+414,0.222222222,Autonomous cars will ease people and reduce traffic,We-should-promote-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+2813,0.230769231,Personal Freedom is a higher value that should be respected,Gambling-should-not-be-banned,none,Gambling,1,FALSE,TRUE
+66,0.230769231,AI is more consistent when it comes to doing repetive jobs.,We-should-promote-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+2270,0.25,Might bring to your country a lot of adicted people who are bad tiurist,Gambling-should-be-banned,none,Gambling,1,FALSE,TRUE
+1678,0.25,"If gambling is banned, Wall Street should closed right away.",Gambling-should-not-be-banned,none,Gambling,1,TRUE,FALSE
+867,0.25,Decreases product price and make it more available.,Online-shopping-brings-more-good-than-harm,none,Online Shopping,1,FALSE,TRUE
+2689,0.25,People are distracted by constant inflow of information,Social-media-brings-more-harm-than-good,none,Social Media,1,TRUE,FALSE
+2932,0.25,Real life is much better than the fake life in Facebook.,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+5287,0.25,"nah, we should educate people rather the ban anything.",We-should-allow-the-sale-of-violent-video-games-to-minors,none,Violent Video Games,1,TRUE,FALSE
+65,0.25,AI is cleverer than human beings. AI can do better what people can do.,We-should-promote-autonomous-cars,none,Autonomous Cars,1,FALSE,TRUE
+4082,0.263157895,The global warming it's an natural process that we are only make it faster,We-should-ban-fossil-fuels,none,Fossil Fuels,1,TRUE,FALSE
+1590,0.266666667,"I've heard that kids are getting bullied on social media sites, which is terrible.",Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+1680,0.272727273,"If gambling is banned, people will continue illegally anyway.",Gambling-should-not-be-banned,none,Gambling,1,TRUE,FALSE
+614,0.272727273,Biggest gamble would be to ban gambling in the first place.,Gambling-should-not-be-banned,none,Gambling,1,FALSE,TRUE
+1303,0.272727273,Gambling is a normal human function we do every day and should be encouraged,Gambling-should-not-be-banned,none,Gambling,1,TRUE,FALSE
+3428,0.272727273,Social media equates points of view as uncontested truth.,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+4650,0.272727273,Violent video games do not impact the mind of a person.,We-should-allow-the-sale-of-violent-video-games-to-minors,none,Violent Video Games,1,TRUE,FALSE
+5136,0.272727273,banning fossil fuels is simply not possible in the foreseeable future.,We-should-not-ban-fossil-fuels,none,Fossil Fuels,1,FALSE,TRUE
+5449,0.272727273,we must continue working on it and test it in a very traffic complicated cities,We-should-promote-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+2807,0.285714286,People will lie about getting the vaccine to avoid this regulation.,Flu-vaccination-should-not-be-mandatory,none,Flu Vaccine,1,FALSE,TRUE
+796,0.285714286,"Cryptocurrency exists on both side, on our side we can regulate it",We-should-adopt-cryptocurrency,none,Cryptocurrency,1,TRUE,FALSE
+161,0.285714286,Anonymous data can be used to solve general humanity problems,We-should-discourage-information-privacy-laws,none,Information Privacy Laws,1,FALSE,TRUE
+291,0.285714286,Autonomous cars are much safer than those driven by humans,We-should-promote-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+5055,0.3,"Yes in any case, since there is a very high risk of addiction.",Gambling-should-be-banned,none,Gambling,1,FALSE,TRUE
+1120,0.3,For some people gambling seems like the only legal way out of poverty.,Gambling-should-not-be-banned,none,Gambling,1,TRUE,FALSE
+4578,0.3,Victimless crimes shouldn't be illegal in a free country.,Gambling-should-not-be-banned,none,Gambling,1,FALSE,TRUE
+760,0.3,Connects people around the world on a single cause.,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+2260,0.3,Meat is delicious and most of the people of the world will not give it up.,We-should-abandon-vegetarianism,none,Cryptocurrency,1,FALSE,TRUE
+4906,0.3,We shouldnt let the car on the road until they actually work,We-should-limit-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+893,0.3,Don't drive - save lives - let the computer do that for you,We-should-promote-autonomous-cars,none,Autonomous Cars,1,FALSE,TRUE
+423,0.3,Autonomous cars will finally end our dependency on taxi drivers,We-should-promote-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+5108,0.3,are you crazy? self driving cars will increase road safety if we get it right.,We-should-promote-autonomous-cars,none,Autonomous Cars,1,FALSE,TRUE
+5211,0.307692308,game providers are only keen on their profit,Gambling-should-be-banned,none,Gambling,1,TRUE,FALSE
+879,0.307692308,Development in itself has little harm or risk,We-should-promote-autonomous-cars,none,Autonomous Cars,1,FALSE,TRUE
+179,0.3125,Anything that connects people together cant be bad,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+5323,0.3125,people should have the right to do whatever they want with there money,Gambling-should-not-be-banned,none,Gambling,1,FALSE,TRUE
+4198,0.3125,The privacy argument can sometimes be miss-used to cover up criminal issues,We-should-discourage-information-privacy-laws,none,Information Privacy Laws,1,TRUE,FALSE
+2690,0.333333333,People are entitled to make bad medical decisions.,Flu-vaccination-should-not-be-mandatory,none,Flu Vaccine,1,FALSE,TRUE
+1369,0.333333333,Gambling is in my opinion waste of time,Gambling-should-be-banned,none,Gambling,1,TRUE,FALSE
+4197,0.333333333,The price is more comparable and much cheaper,Online-shopping-brings-more-good-than-harm,none,Online Shopping,1,FALSE,TRUE
+5337,0.333333333,shopping at the mall does not do well,Online-shopping-brings-more-good-than-harm,none,Online Shopping,1,TRUE,FALSE
+4696,0.333333333,We can't touch and feel the goods any more,Online-shopping-brings-more-harm-than-good,none,Online Shopping,1,FALSE,TRUE
+2397,0.333333333,OPENS UP THE WORLD WITH NEWS/POLITICS/SPORTS/SCIENCE/PHOTOGRAPHY/ENTERTAINMENT/ TOURISM TO GENERAL PEOPLE.,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+2398,0.333333333,Obtain relevant advertising based on social media searches and posts.,Social-media-brings-more-good-than-harm,none,Social Media,1,FALSE,TRUE
+2388,0.333333333,Not everything in a social media is interesting or needs to be shared,Social-media-brings-more-harm-than-good,none,Social Media,1,TRUE,FALSE
+2778,0.333333333,People tend to expect more from social responses than on real life.,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+5278,0.333333333,meat substitutes like vitamins and soy products are expensive,We-should-abandon-vegetarianism,none,Cryptocurrency,1,TRUE,FALSE
+4394,0.333333333,These games teach how do deal with conflict,We-should-allow-the-sale-of-violent-video-games-to-minors,none,Violent Video Games,1,FALSE,TRUE
+4360,0.333333333,"There is no privacy, it does not exist at all.",We-should-discourage-information-privacy-laws,none,Information Privacy Laws,1,TRUE,FALSE
+440,0.333333333,Autonomous cars will kill all the joy in driving,We-should-limit-autonomous-cars,none,Autonomous Cars,1,FALSE,TRUE
+454,0.333333333,Autonomous cars will never be as smart as a human.,We-should-limit-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+3078,0.357142857,Social Media connecting people on the whole world.,Social-media-brings-more-good-than-harm,none,Social Media,1,FALSE,TRUE
+35,0.363636364,A con to gambling is that it can be addictive,Gambling-should-be-banned,none,Gambling,1,TRUE,FALSE
+4741,0.363636364,We need to give people to free will.,Gambling-should-not-be-banned,none,Gambling,1,FALSE,TRUE
+2396,0.363636364,"OLD, FORGOTTEN, DE LINKED FRIENDS AND FAMILIES REUNITED.",Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+5047,0.363636364,"Yes, job loss is too overwhelming for trucking industry / mobility industry",We-should-limit-autonomous-cars,none,Autonomous Cars,1,FALSE,TRUE
+685,0.375,Casinos are not responsible for the well-being of their patrons.,Gambling-should-be-banned,none,Gambling,1,TRUE,FALSE
+534,0.368421053,Banning fossil fuel will increase the price of renewable energies constructions,We-should-not-ban-fossil-fuels,none,Fossil Fuels,1,FALSE,TRUE
+5059,0.375,Yes we should because it will help all kids,We-should-ban-the-sale-of-violent-video-games-to-minors,none,Violent Video Games,1,TRUE,FALSE
+1214,0.384615385,Gambling can be very damaging for young people.,Gambling-should-be-banned,none,Gambling,1,FALSE,TRUE
+4607,0.384615385,Violent games can be a motivator for being good.,We-should-allow-the-sale-of-violent-video-games-to-minors,none,Violent Video Games,1,TRUE,FALSE
+2871,0.384615385,Privacy laws are not legitimate and cause damage.,We-should-discourage-information-privacy-laws,none,Information Privacy Laws,1,FALSE,TRUE
+1250,0.4,Gambling does not promote adding any personal value to your life.,Gambling-should-be-banned,none,Gambling,1,TRUE,FALSE
+2224,0.4,Many people enjoy gambling and do not become addicted to it,Gambling-should-not-be-banned,none,Gambling,1,FALSE,TRUE
+5255,0.4,it is yet another mean of contact with friends,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+248,0.4,Authenticity of postings is always a debate across media,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+411,0.4,Autonomous cars will drastically reduce number of accidents.,We-should-promote-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+522,0.411764706,Ban it will bring new green energy tech,We-should-ban-fossil-fuels,none,Fossil Fuels,1,FALSE,TRUE
+1603,0.416666667,I do not think gambling is good for children,Gambling-should-be-banned,none,Gambling,1,TRUE,FALSE
+632,0.416666667,Businesses are negatively impacted due to social media,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+1106,0.416666667,Focil fuel pulute nature and create global warming,We-should-ban-fossil-fuels,none,Fossil Fuels,1,TRUE,FALSE
+2071,0.423076923,Its an easy and fast way to be updated on your in interest topics,Social-media-brings-more-good-than-harm,none,Social Media,1,FALSE,TRUE
+3515,0.428571429,Social media has made the world a small village.,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+5062,0.428571429,You can check the validity of all your transactions if you have crypto,We-should-adopt-cryptocurrency,none,Cryptocurrency,1,FALSE,TRUE
+1346,0.444444444,Gambling is an immoral act forbidden by many religions.,Gambling-should-be-banned,none,Gambling,1,TRUE,FALSE
+1544,0.444444444,Helps in knowing out the diffrerent issues over the globe,Social-media-brings-more-good-than-harm,none,Social Media,1,FALSE,TRUE
+3623,0.444444444,Social media is bad. We don't like it.,Social-media-brings-more-harm-than-good,none,Social Media,1,TRUE,FALSE
+1971,0.454545455,It is an addiction that millions of people suffer from,Gambling-should-be-banned,none,Gambling,1,FALSE,TRUE
+608,0.454545455,Bets are in the sphere of individual freedom.,Gambling-should-not-be-banned,none,Gambling,1,TRUE,FALSE
+3416,0.454545455,Social media enables the spread of unreliable and false information,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+1973,0.461538462,It is bad for the local business and jobs in th communities.,Online-shopping-brings-more-harm-than-good,none,Online Shopping,1,TRUE,FALSE
+2781,0.461538462,People tend to spend more money when shopping online,Online-shopping-brings-more-harm-than-good,none,Online Shopping,1,FALSE,TRUE
+1545,0.461538462,Helps in spreading awareness on key social issues,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+4283,0.466666667,The video game industry has positive economic impact.,We-should-allow-the-sale-of-violent-video-games-to-minors,none,Violent Video Games,1,FALSE,TRUE
+1285,0.5,Gambling is a drug and drugs are not good,Gambling-should-be-banned,none,Gambling,1,TRUE,FALSE
+1434,0.5,Gambling promotes easy money and laziness as opposed to hard work.,Gambling-should-be-banned,none,Gambling,1,FALSE,TRUE
+2049,0.5,It will end on monopoly for one company.,Online-shopping-brings-more-harm-than-good,none,Online Shopping,1,TRUE,FALSE
+1081,0.5,"Find long lost friends, and family with social media.",Social-media-brings-more-good-than-harm,none,Social Media,1,FALSE,TRUE
+3556,0.5,Social media ia great. We all like it.,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+626,0.5,Bullying is more popular now that social media is around,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+2704,0.5,People are wasting too much of their time on social media.,Social-media-brings-more-harm-than-good,none,Social Media,1,TRUE,FALSE
+3678,0.5,Social media is pushing people to become anti-social in person,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+3848,0.5,Social networks help governments spy against their citizens,Social-media-brings-more-harm-than-good,none,Social Media,1,TRUE,FALSE
+3921,0.5,Students who are heavy social media users tend to have lower grades.,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+4565,0.5,Vegetarianism is no more environmentally sound than omnivorous diets.,We-should-abandon-vegetarianism,none,Cryptocurrency,1,TRUE,FALSE
+240,0.5,Athletes should be naturally talented at their sport.,We-should-ban-doping-in-sport,none,Doping in Sport,1,FALSE,TRUE
+4645,0.5,Violent video games contribute to the laziness of children.,We-should-ban-the-sale-of-violent-video-games-to-minors,none,Violent Video Games,1,TRUE,FALSE
+1823,0.5,Individual privacy ensured equals liberty for the people,We-should-support-information-privacy-laws,none,Information Privacy Laws,1,FALSE,TRUE
+5135,0.5,bad actors can steal your identity and money from you,We-should-support-information-privacy-laws,none,Information Privacy Laws,1,TRUE,FALSE
+4077,0.538461538,The gambling industry can be an economic driver in some areas,Gambling-should-not-be-banned,none,Gambling,1,FALSE,TRUE
+2408,0.538461538,"Once available, it will revolutionise the way we travel",We-should-promote-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+3026,0.545454545,Shopping online reduce the costs of the products,Online-shopping-brings-more-good-than-harm,none,Online Shopping,1,FALSE,TRUE
+3301,0.545454545,Social media can be fun and informative when used as such,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+3337,0.545454545,Social media causes less face to face interaction,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+3833,0.545454545,Social media use is associated with personality and brain disorders.,Social-media-brings-more-harm-than-good,none,Social Media,1,TRUE,FALSE
+1861,0.545454545,Information privacy law are there to protect the individual,We-should-support-information-privacy-laws,none,Information Privacy Laws,1,FALSE,TRUE
+5335,0.545454545,"self-driving cars don't get tired, angry, frustrated or drunk",We-should-promote-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+1265,0.555555556,Gambling has caused more harm than any benefit,Gambling-should-be-banned,none,Gambling,1,FALSE,TRUE
+2707,0.555555556,"People can buy without leaving their home, or even at work.",Online-shopping-brings-more-good-than-harm,none,Online Shopping,1,TRUE,FALSE
+1914,0.555555556,It's fun and can be instructive to read other people's postings,Social-media-brings-more-good-than-harm,none,Social Media,1,FALSE,TRUE
+4649,0.555555556,Violent video games do not cause children to act violently.,We-should-allow-the-sale-of-violent-video-games-to-minors,none,Violent Video Games,1,TRUE,FALSE
+5258,0.555555556,it will put thousands of workers out of work,We-should-limit-autonomous-cars,none,Autonomous Cars,1,FALSE,TRUE
+3554,0.5625,Social media helps us to connect to people across the globe,We-should-discourage-information-privacy-laws,none,Information Privacy Laws,1,TRUE,FALSE
+1272,0.571428571,Gambling hits the poor harder than the rich.,Gambling-should-be-banned,none,Gambling,1,FALSE,TRUE
+1917,0.571428571,It's hard to recognize if a post is real or fake-news,Social-media-brings-more-harm-than-good,none,Social Media,1,TRUE,FALSE
+922,0.571428571,Doping in sport seriously harm the athletes in the long term.,We-should-ban-doping-in-sport,none,Doping in Sport,1,FALSE,TRUE
+2988,0.571428571,Self-driving cars are not susceptible to road-rage,We-should-promote-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+1753,0.583333333,In Gambling there are more losers than there are winners,Gambling-should-be-banned,none,Gambling,1,FALSE,TRUE
+5064,0.583333333,You can find contacts with specific skills very easily.,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+3791,0.583333333,Social media provides another avenue to bullying for kids,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+4909,0.583333333,We will lose the simple pleasure of driving.,We-should-limit-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+4543,0.6,Vaccines save children and their parents time and money.,Flu-vaccination-should-be-mandatory,none,Flu Vaccine,1,FALSE,TRUE
+1310,0.6,Gambling is a tool for people to launder money,Gambling-should-be-banned,none,Gambling,1,TRUE,FALSE
+3320,0.6,Social media can entice people to waste time.,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+4213,0.6,The public is not ready to accept accidents by autonomous cars,We-should-limit-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+2176,0.615384615,Major medical organizations state that vaccines are safe.,Flu-vaccination-should-be-mandatory,none,Flu Vaccine,1,FALSE,TRUE
+2822,0.625,Persons that play violent games are very aggressive.,We-should-ban-the-sale-of-violent-video-games-to-minors,none,Violent Video Games,1,TRUE,FALSE
+985,0.636363636,Easy to find and spread information on social media,Social-media-brings-more-good-than-harm,none,Social Media,1,FALSE,TRUE
+4102,0.642857143,The government should not intervene in personal medical choices.,Flu-vaccination-should-not-be-mandatory,none,Flu Vaccine,1,TRUE,FALSE
+691,0.666666667,Casinos can foster crime in the city it is located in.,Gambling-should-be-banned,none,Gambling,1,FALSE,TRUE
+1187,0.666666667,Gamblers are aware of the risks they are undertaking.,Gambling-should-not-be-banned,none,Gambling,1,TRUE,FALSE
+1289,0.666666667,Gambling is a fun activity that can be enjoyed with friends.,Gambling-should-not-be-banned,none,Gambling,1,FALSE,TRUE
+2648,0.666666667,Only a very small portion of gamblers ever develop an addiction.,Gambling-should-not-be-banned,none,Gambling,1,TRUE,FALSE
+3318,0.666666667,Social media can easily be used to reach a large audience,Social-media-brings-more-good-than-harm,none,Social Media,1,FALSE,TRUE
+909,0.666666667,Doping causes long term health damage to the athletes.,We-should-ban-doping-in-sport,none,Doping in Sport,1,TRUE,FALSE
+1156,0.666666667,Fossil fuels pollute and cause a lot of diseases,We-should-ban-fossil-fuels,none,Fossil Fuels,1,FALSE,TRUE
+314,0.666666667,Autonomous cars can make better judgment calls than humans,We-should-promote-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+1336,0.692307692,Gambling is an activity that does not cause harm to others.,Gambling-should-not-be-banned,none,Gambling,1,FALSE,TRUE
+5120,0.692307692,autonomous cars reduce drivers fatigue during long drives,We-should-promote-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+1427,0.7,"Gambling only benefits the providers, not the players.",Gambling-should-be-banned,none,Gambling,1,FALSE,TRUE
+4104,0.7,The government should stop interfering with peoples life choices.,Gambling-should-not-be-banned,none,Gambling,1,TRUE,FALSE
+3608,0.7,Social media is a way to spread hate speech,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+3615,0.7,Social media is an enormous time sink and can sap productivity,Social-media-brings-more-harm-than-good,none,Social Media,1,TRUE,FALSE
+1031,0.7,Every individual has the right to protect his/her own data,We-should-support-information-privacy-laws,none,Information Privacy Laws,1,FALSE,TRUE
+5102,0.705882353,alternative energy is much better than the existing alternatives.,We-should-ban-fossil-fuels,none,Fossil Fuels,1,TRUE,FALSE
+3599,0.714285714,Social media is a source of fake news.,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+5122,0.714285714,autonomous cars technology pushes the limits on AI,We-should-limit-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+2162,0.727272727,Lot's a people are lead to despair because of gambling.,Gambling-should-be-banned,none,Gambling,1,FALSE,TRUE
+3049,0.727272727,Small commerce in inner cities would be dead,Online-shopping-brings-more-harm-than-good,none,Online Shopping,1,TRUE,FALSE
+3319,0.727272727,"Social media can endanger our military, journalists and activists.",Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+4647,0.727272727,Violent video games desensitize players to real-life violence.,We-should-allow-the-sale-of-violent-video-games-to-minors,none,Violent Video Games,1,TRUE,FALSE
+352,0.727272727,Autonomous cars might be vulnerable to adversarial attacks,We-should-limit-autonomous-cars,none,Autonomous Cars,1,FALSE,TRUE
+3582,0.733333333,Social media is a great way to keep in touch with friends and family.,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+1387,0.75,Gambling is one of the most unproductive human behaviors,Gambling-should-be-banned,none,Gambling,1,FALSE,TRUE
+3548,0.75,Social media helps the elderly feel less isolated.,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+4156,0.75,The meat industry is one of the largest pollution generators in the world.,We-should-adopt-vegetarianism,none,Vegetarianism,1,FALSE,TRUE
+950,0.75,Driverless cars are too dangerous to be allowed on the road,We-should-limit-autonomous-cars,none,Autonomous Cars,1,TRUE,FALSE
+2997,0.75,"Self-driving cars introduce new, poorly understood safety risks.",We-should-limit-autonomous-cars,none,Autonomous Cars,1,FALSE,TRUE
+907,0.777777778,Doping can lead to addiction and other health problems.,We-should-ban-doping-in-sport,none,Doping in Sport,1,TRUE,FALSE
+2072,0.785714286,Its an easy way to manipulate and steal peoples information,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE
+3836,0.8,Social media was used during terror attacks to help save lives,Social-media-brings-more-good-than-harm,none,Social Media,1,TRUE,FALSE
+3098,0.8,Social Media has become a distraction from focused work,Social-media-brings-more-harm-than-good,none,Social Media,1,FALSE,TRUE

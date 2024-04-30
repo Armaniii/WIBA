@@ -90,9 +90,6 @@ else:
     num_labels = 3
 
 model_path_name = args.save_model_path + "/" + llm + "_arg_v1"
-# arg_stance_v21 is best for stance
-
-# for llama arg "arg_fixed_v90" is the best
 
 
 
@@ -141,8 +138,6 @@ def find_all_linear_names(model):
 
 
 
-
-
 if DO_TRAIN:
     if llm =="llama":
         tokenizer = LlamaTokenizer.from_pretrained('meta-llama/Llama-2-7b-hf')
@@ -179,7 +174,7 @@ if DO_TRAIN:
     ### LIMA TRAIN ### 
     ### Using the Less is More approach ### 
     if training_data == "lima":
-        data = pd.read_csv('/home/arman/lima_class_data/ukp_lima_train_v3.csv')
+        data = pd.read_csv('/data/finetuning/ukp_lima_train.csv')
         data = data[['topic','sentence','annotation_real']]
         
         if task == "stance-classification":
@@ -202,7 +197,7 @@ if DO_TRAIN:
 
 
     if training_data == "full":
-        data = pd.read_csv('/home/arman/finetunedata/asonam_paper_data/ukp/ukp_train.csv')
+        data = pd.read_csv('/data/finetuning/ukp_train.csv')
         data.columns = ['text', 'class']
         data['topic'] = data['text'].str.split("Target: ").str[1].str.split(" Text: ").str[0]
         data["text"] = data["text"].str.split("Text: ").str[1]
@@ -231,7 +226,7 @@ if DO_TRAIN:
 
     if task == "stance-classification":
         if training_data == "full":
-            val = pd.read_csv('/home/arman/finetunedata/asonam_paper_data/ukp/ukp_val.csv',names=["text","class"])
+            val = pd.read_csv('/data/finetuning/ukp_full_val.cvsv',names=["text","class"])
             val["text"] = val["text"].astype(str)
             val['topic'] = val['text'].str.split("Target: ").str[1].str.split(" Text: ").str[0]
             val["text"] = val["text"].str.split("Text: ").str[1]
@@ -241,7 +236,7 @@ if DO_TRAIN:
             val["class"] = val["class"].map(id2labels)
 
         if training_data == "lima":
-            val = pd.read_csv('/home/arman/lima_class_data/ukp_lima_val_stance.csv')
+            val = pd.read_csv('/data/finetuning/ukp_lima_val_stance.csv')
             val = val.dropna(subset=["text"])
             val = val[['text','class','topic']]
             val["class"] = val["class"].map(id2labels)
@@ -256,7 +251,7 @@ if DO_TRAIN:
 
             }
              
-            df_add = pd.read_csv('/home/arman/lima_class_data/argqual_ibm_2.csv')
+            df_add = pd.read_csv('/data/finetuning/add_ibm_arg.csv')
             df_add = df_add[df_add['test']==True]
             
             # argument to text, stance to label
@@ -271,7 +266,7 @@ if DO_TRAIN:
     if task == "argument-classification":
         ### Val Lima ###
         if training_data == "lima":
-            val = pd.read_csv('/home/arman/lima_class_data/ukp_lima_val_stance.csv')
+            val = pd.read_csv('/data/finetuning/ukp_lima_val_stance.csv')
             val = val.dropna(subset=["text"])
             # map
             val["class"] = val["class"].apply(lambda x: 1 if x != "NoArgument" else 0)
@@ -286,7 +281,7 @@ if DO_TRAIN:
 
             }
              
-            df_add = pd.read_csv('/home/arman/lima_class_data/argqual_ibm_2.csv')
+            df_add = pd.read_csv('/data/finetuning/add_ibm_arg.csv')
             df_add = df_add[df_add['test']==True]
             
             # argument to text, stance to label
@@ -299,7 +294,7 @@ if DO_TRAIN:
             val = pd.concat([val,df_add],ignore_index=True)
             
         if training_data == "full":
-            val = pd.read_csv('/home/arman/finetunedata/asonam_paper_data/ukp/ukp_val.csv',names=["text","class"])
+            val = pd.read_csv('/data/finetuning/ukp_full_val.csv',names=["text","class"])
             val["text"] = val["text"].astype(str)
             val['topic'] = val['text'].str.split("Target: ").str[1].str.split(" Text: ").str[0]
             val["text"] = val["text"].str.split("Text: ").str[1]
@@ -419,23 +414,23 @@ if DO_TRAIN:
     model.config.use_cache = False  # silence the warnings. Please re-enable for inference!
     llm_trainer.train()
     if llm == "llama":
-        llm_trainer.model.save_pretrained("/home/arman/models/llama2/"+model_path_name+"/")
-        tokenizer.save_pretrained("/home/arman/models/llama2/"+model_path_name+"/")
+        llm_trainer.model.save_pretrained(model_path_name)
+        tokenizer.save_pretrained(model_path_name)
     if llm == "yi":
-        llm_trainer.model.save_pretrained("/home/arman/models/yi/"+model_path_name+"/")
-        tokenizer.save_pretrained("/home/arman/models/yi/"+model_path_name+"/")
+        llm_trainer.model.save_pretrained(model_path_name)
+        tokenizer.save_pretrained(model_path_name)
     
     if llm == "mistral":
-        llm_trainer.model.save_pretrained("/home/arman/models/mistral/"+model_path_name+"/")
-        tokenizer.save_pretrained("/home/arman/models/mistral/"+model_path_name+"/")
+        llm_trainer.model.save_pretrained(model_path_name)
+        tokenizer.save_pretrained(model_path_name)
 
     if llm == "bart":
-        llm_trainer.model.save_pretrained("/home/arman/models/bart/"+model_path_name+"/")
-        tokenizer.save_pretrained("/home/arman/models/bart/"+model_path_name+"/")
+        llm_trainer.model.save_pretrained(model_path_name)
+        tokenizer.save_pretrained(model_path_name)
     
     if llm == "llama-3":
-        llm_trainer.model.save_pretrained("/home/arman/models/llama3/"+model_path_name+"/")
-        tokenizer.save_pretrained("/home/arman/models/llama3/"+model_path_name+"/")
+        llm_trainer.model.save_pretrained(model_path_name)
+        tokenizer.save_pretrained(model_path_name)
 
 
 if DO_PRED:
@@ -443,23 +438,23 @@ if DO_PRED:
         tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-2-7b-hf')
         model = LlamaForSequenceClassification.from_pretrained('meta-llama/Llama-2-7b-hf', num_labels=num_labels,torch_dtype=torch.float16, device_map=device_map,)
     if llm == "llama":
-        tokenizer = AutoTokenizer.from_pretrained("/home/arman/models/llama2/"+model_path_name+"/")
-        model = LlamaForSequenceClassification.from_pretrained("/home/arman/models/llama2/"+model_path_name+"/", num_labels=num_labels,torch_dtype=torch.float16, device_map=device_map,)
+        tokenizer = AutoTokenizer.from_pretrained(model_path_name)
+        model = LlamaForSequenceClassification.from_pretrained(model_path_name, num_labels=num_labels,torch_dtype=torch.float16, device_map=device_map,)
 
     if llm=="yi":
-        tokenizer = AutoTokenizer.from_pretrained('/home/arman/models/yi/'+model_path_name+'/')
-        model = LlamaForSequenceClassification.from_pretrained('/home/arman/models/yi/'+model_path_name+'/', num_labels=num_labels,torch_dtype=torch.float16, device_map=device_map,)
+        tokenizer = AutoTokenizer.from_pretrained(model_path_name)
+        model = LlamaForSequenceClassification.from_pretrained(model_path_name, num_labels=num_labels,torch_dtype=torch.float16, device_map=device_map,)
     if llm=="mistral":
-        tokenizer = AutoTokenizer.from_pretrained('/home/arman/models/mistral/'+model_path_name+'/')
-        model = AutoModelForSequenceClassification.from_pretrained('/home/arman/models/mistral/'+model_path_name+'/', num_labels=num_labels,torch_dtype=torch.float16, device_map=device_map,)
+        tokenizer = AutoTokenizer.from_pretrained(model_path_name)
+        model = AutoModelForSequenceClassification.from_pretrained(model_path_name, num_labels=num_labels,torch_dtype=torch.float16, device_map=device_map,)
     
     if llm=="bart":
-        tokenizer = AutoTokenizer.from_pretrained('/home/arman/models/bart/'+model_path_name+'/')
-        model = BartForSequenceClassification.from_pretrained('/home/arman/models/bart/'+model_path_name+'/', num_labels=num_labels,torch_dtype=torch.float16, device_map=device_map,)
+        tokenizer = AutoTokenizer.from_pretrained(model_path_name)
+        model = BartForSequenceClassification.from_pretrained(model_path_name, num_labels=num_labels,torch_dtype=torch.float16, device_map=device_map,)
 
     if llm=="llama-3":
-        tokenizer = AutoTokenizer.from_pretrained('/home/arman/models/llama3/'+model_path_name+'/')
-        model = AutoModelForSequenceClassification.from_pretrained('/home/arman/models/llama3/'+model_path_name+'/', num_labels=num_labels,torch_dtype=torch.float16, device_map=device_map,)
+        tokenizer = AutoTokenizer.from_pretrained(model_path_name)
+        model = AutoModelForSequenceClassification.from_pretrained(model_path_name, num_labels=num_labels,torch_dtype=torch.float16, device_map=device_map,)
     
     
     tokenizer.add_special_tokens({'unk_token': '[UNK]'})
@@ -485,25 +480,10 @@ if DO_PRED:
     labels = []
     
 
-    if test_data == "ukp":
-        if task == "stance-classification":
-            df_test = pd.read_csv('/home/arman/finetunedata/asonam_paper_data/ukp/ukp_test.csv',names=["text","class"])
-            df_test["topic"] = df_test["text"].str.split("Target: ").str[1].str.split(" Text: ").str[0]
 
-        #Now strip the text column to only include the text
-            df_test["text"] = df_test["text"].str.split("Text: ").str[1]
-            df_test = df_test.dropna()
-            df_test = df_test.rename(columns={"class":"target"})
-            print(df_test.head())
-        else:
-            df_test = pd.read_csv('/home/arman/finetunedata/asonam_paper_data/ukp/ukp_test.csv',names=["text","class"])
-            df_test["text"] = df_test["text"].str.split("Text: ").str[1]     
-            df_test = df_test.dropna()
-            df_test = df_test.rename(columns={"class":"target"})
-            print(df_test.head())
 
     if test_data == "ukp_human":
-        df_test = pd.read_csv('/home/arman/finetunedata/asonam_paper_data/ukp/ukp_test_untouched_human.csv')
+        df_test = pd.read_csv('/data/finetuning/ukp_test.csv')
 
         if task == "stance-classification":
             # if human_eval is 1 than leave target as is else, set to noargument
@@ -519,65 +499,20 @@ if DO_PRED:
         df_test = df_test.rename(columns={"human_eval":"target"})
 
 
-    if test_data == "ibm":
-        df_test = pd.read_csv('/home/arman/finetunedata/asonam_paper_data/ibm/ibm_argqual_test.csv')
-        df_test = df_test.rename(columns={"argument":"text","label":"target"})
-        df_test = df_test[['text','target']]
-        # get everything after "Text: "
-        df_test["text"] = df_test["text"].str.split("Text: ").str[1]
-
-    if test_data == "ibm_train":
-        df_test = pd.read_csv('/home/arman/ibm_train.csv')
-        df_test = df_test[['candidate','label']]
-        df_test = df_test.rename(columns={"candidate":"text","label":"target"})
-
-    if test_data =="ibm_spoken":
-        df_test = pd.read_csv('/home/arman/finetunedata/asonam_paper_data/ibm/arg_spoken.csv')
-        df_test = df_test[['sentence','label','test']]
-        df_test = df_test[df_test['test'] == True]
-        df_test = df_test.rename(columns={"sentence":"text","label":"target"})
-
-    if test_data == "ibm_coling":
-        df_test = pd.read_csv('/home/arman/finetunedata/asonam_paper_data/ibm/ibm_coling.csv',names=["id","context","topic","sentence","q","confidence","label","source"])
-        df_test = df_test[['sentence','label']]
-        df_test = df_test.rename(columns={"sentence":"text","label":"target"})
-
-    if test_data == "ibm_argqual":
-        df_test1 = pd.read_csv('/home/arman/finetunedata/asonam_paper_data/ibm/ibm_arg_qual_all.csv')
-
-        df_test1 = df_test1[['argument','rank','context','stance','topic', 'Manual']]
-        df_test1 = df_test1.rename(columns={"argument":"text","stance":"target"})
-        # replace "-" in context with " "
-        df_test1["context"] = df_test1["context"].str.replace("-"," ")
-
-        # if target == "con" change to 2 else 1
-        df_test1["target"] = df_test1["target"].apply(lambda x: 2 if x == "con" else 1)
-
-        # randomly select 500 examples less than 0.5 rank and 500 above
-        df_test_low = df_test1[df_test1['rank'] < 0.5].sample(n=500)
-        df_test = pd.concat([df_test_low,df_test1[df_test1['rank'] > 0.5].sample(n=500)])
 
     if test_data == "arg_spoken_human":
-        df_test = pd.read_csv('/home/arman/finetunedata/asonam_paper_data/ibm/arg_spoken_human.csv')
+        df_test = pd.read_csv('/data/finetuning/debate_test.csv')
         df_test = df_test[['sentence','human_eval','topic']]
         df_test = df_test.rename(columns={"sentence":"text","human_eval":"target"})
 
-    if test_data == "gpt":
-        df_test = pd.read_csv('/home/arman/lima_class_data/gpt_arg_binary.csv')
-        df_test = df_test.rename(columns={"sentence":"text","label":"target"})
-        df_test = df_test[['text','target','type']]
-    if test_data == "gpt_pro":
-        df_test = pd.read_csv('/home/arman/lima_class_data/gpt_pro_test.csv')
-        df_test = df_test.rename(columns={"class":"target"})
-        print(df_test.head())
-        df_test = df_test[['text','target','type']]
+
     if test_data =="gpt_pro_all":
-        df_test = pd.read_csv('/home/arman/lima_class_data/gpt_pro.csv',names=["text","class","topic","type"])
+        df_test = pd.read_csv('/data/finetuning/gpt_test.csv',names=["text","class","topic","type"])
         df_test = df_test.rename(columns={"class":"target"})
         df_test = df_test[['text','target','topic','type']]
 
     if test_data == "argqual_stance_human":
-        df_test = pd.read_csv('/home/arman/lima_class_data/arg_qual_for_stance_human_CTE.csv')
+        df_test = pd.read_csv('/data/finetuning/ibm_arg_test.csv')
         df_test = df_test[['argument','topic','human_eval','pred_topic']]
         df_test["pred_topic"] = df_test["pred_topic"].str.strip()
         df_test["topic"] = df_test.apply(lambda x: x['pred_topic'] if x['pred_topic'] != "No Topic" else x['topic'],axis=1)
@@ -586,7 +521,7 @@ if DO_PRED:
         # df_test = df_test.rename(columns={"target":"target"})
 
     if test_data == "gpt_pro_all_stance":
-        df_test = pd.read_csv('/home/arman/lima_class_data/gpt_pro_all_stance.csv')
+        df_test = pd.read_csv('/data/finetuning/gpt_stance_test.csv')
         df_test = df_test[['text','target','topic','type','pred_topic']]
         # drop target column
         df_test = df_test.drop(columns=["target"])
@@ -631,7 +566,7 @@ if DO_PRED:
         # Get the ground truth labels
     df_test["pred_topic"] = predictions
 
-    df_test.to_csv("/home/arman/llama_seq_no_form_arg.csv",index=False)
+    df_test.to_csv("/home/results/predictions.csv",index=False)
 
     
 # Evaluate the model
@@ -641,43 +576,16 @@ if DO_EVAL:
             "Argument_for":1,
             "Argument_against":2
     }
-    val = pd.read_csv("/home/arman/llama_seq_no_form_arg.csv")
-
-    print(val.head())
-    if test_data=="gpt_pro":
-        val = val[["text","target","type","pred_topic"]]
-    if test_data=="ukp":
-        val = val[["text","target","pred_topic"]]
-
-    if task == "stance-classification" and test_data == "ukp":
-        val["target"] = val["target"].map(id2labels)
+    val = pd.read_csv("/home/results/predictions.csv")
 
 
-
-    if task == "stance-classification" and test_data == "ukp":
-        val["target"] = val["target"].astype(str)
-        # val["target"] = val["target"].map(id2labels)
     if task == "argument-classification" and test_data == "gpt_pro_all":
         val["target"] = val["target"].astype(str)
         val["target"] = val["target"].apply(lambda x: 1 if x != "NoArgument" else 0)
 
-
-
     val["pred_topic"] = val["pred_topic"].astype(int)
 
-    if test_data == "gpt":
-        labels = val['target'].tolist()
-    if test_data =="gpt_pro":
-        labels = val['target'].tolist()
-
-    if test_data =="ukp" and task == "stance-classification":
-        labels = val['target'].tolist()
-
     if test_data =="gpt_pro_all":
-        labels = val['target'].tolist()
-
-    if test_data == "ibm" or test_data == "ibm_train" or test_data=="ibm_spoken" or test_data =="ibm_coling" or test_data =="ibm_argqual":
-        labels = val['target'].astype(int)
         labels = val['target'].tolist()
 
     if test_data == "argqual_stance_human":
