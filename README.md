@@ -55,6 +55,6 @@ Reference blineval.py and data in /data/ directory.
 Evalution
 =============
 <p align="center">
-<img src="images/eval_table_v2.PNG" width="800 height =800">
+<img src="images/eval_table_v2.PNG" width="400 height =400">
 </p>
 
