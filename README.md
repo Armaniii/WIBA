@@ -204,6 +204,18 @@ Arman Irani, Ju Yeon Park, Kevin Esterling, Michalis Faloutsos
 
 ### License
 Creative Commons
+Use the following citation:
+
+```
+@misc{irani2024wiba,
+      title={WIBA: What Is Being Argued? A Comprehensive Approach to Argument Mining}, 
+      author={Arman Irani and Ju Yeon Park and Kevin Esterling and Michalis Faloutsos},
+      year={2024},
+      eprint={2405.00828},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 ### FAQ
 
