@@ -18,9 +18,8 @@
 7. [Paper](#paper)
 8. [Authors](#authors)
 9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
-11. [FAQs](#faqs)
-12. [Contact Information](#contact-information)
+10. [FAQs](#faqs)
+11. [Contact Information](#contact-information)
  
 ### Overview
 --------------
@@ -191,6 +190,7 @@ python3 blind_eval.py --do_ukp --do_debate --do_ibm_arg
 
 ### Paper
 -------------
+The preprint version of WIBA is available at https://arxiv.org/abs/2405.00828
 
 #### Evalution
 
@@ -200,11 +200,12 @@ python3 blind_eval.py --do_ukp --do_debate --do_ibm_arg
 
 
 ### Authors
+Arman Irani, Ju Yeon Park, Kevin Esterling, Michalis Faloutsos
 
 ### License
-
-### Acknlowedgments
+Creative Commons
 
 ### FAQ
 
 ### Contact Us
+airan002@ucr.edu
