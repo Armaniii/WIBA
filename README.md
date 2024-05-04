@@ -204,6 +204,7 @@ Arman Irani, Ju Yeon Park, Kevin Esterling, Michalis Faloutsos
 
 ### License
 Creative Commons
+
 Use the following citation:
 
 ```
