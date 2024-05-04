@@ -23,7 +23,7 @@
  
 ### Overview
 --------------
-This repository contains the scripts necessary to create and reproduce the results from our paper, _WIBA: What Is Being Argued? An LLM-based Approach for Comprehensive Argument Mining._
+This repository contains the scripts necessary to create and reproduce the results from our paper, [_WIBA: What Is Being Argued? An LLM-based Approach for Comprehensive Argument Mining._](https://arxiv.org/abs/2405.00828)
 <p align="center">
 <img src="images/ATN_v2.PNG" width="400 height =400">
 </p>
