@@ -52,10 +52,19 @@ python3 finetuning.py --training_data "path/to/training/data" --task "argument-c
 --------------
 
 ```
+pip install accelerate
+pip install peft
+pip install torch
+pip install bitsandbytes
+pip install transformers
+```
+
+```
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, LlamaForSequenceClassification, BitsAndBytesConfig, pipeline
 from datasets import Dataset
 
+#optional (if used, specify while loading model)
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_use_double_quant=False,
@@ -80,18 +89,19 @@ elif task == "claim-topic-extraction":
 
 Source: https://huggingface.co/armaniii/llama-3-8b-argument-detection
 ```
-model = LlamaForSequenceClassification.from_pretrained("armaniii/llama-3-8b-argument-detection",num_labels=2, torch_dtype.float16,device_map="auto",low_cpu_mem_usage = True, token=YOUR_HF_TOKEN_HERE, quantization_config = bnb_config)
-tokenizer = AutoTokenizer.from_pretrained("armaniii/llama-3-8b-argument-detection",use_fast = False)
+from huggingface_hub import snapshot_download
+hf_repo_url = "armaniii/llama-3-8b-argument-detection"
+local_directory = "/path/to/your/directory/"
+
+snapshot_download(repo_id=hf_repo_url,cache_dir=local_directory)
+
+tokenizer = AutoTokenizer.from_pretrained(local_directory)
+model = AutoModelForSequenceClassification.from_pretrained(local_directory,num_labels=2, torch_dtype.float16,device_map="auto",token=YOUR_HF_TOKEN_HERE,local_files_only=True)
+
 model.eval()
 
-tokenizer_arg.add_special_tokens({'unk_token': '[UNK]'})
-tokenizer_arg.padding_side = "right"
-tokenizer_arg.pad_token = tokenizer_arg.unk_token
-model_arg.config.pad_token_id = tokenizer_arg.pad_token_id
-model_arg.resize_token_embeddings(len(tokenizer_arg))
-
 # Using Pipeline
-pipe = pipeline(task="text-classification", model=model_arg, tokenizer=tokenizer_arg,padding=True,truncation=True,device_map="auto",max_length=2048,torch_dtype=torch.float16)
+pipe = pipeline(task="text-classification", model=model, tokenizer=tokenizer_arg,padding=True,truncation=True,device_map="auto",max_length=2048,torch_dtype=torch.float16)
 
 data= data.map(lambda x: {"sentence":[ f"[INST] <<SYS>>\n{system_message.strip()}\n<</SYS>>\n\n" + "Text: '" + sentence +"' [/INST] " for sentence in x['text']]}, batched=True)
 inputs = data['sentence']
@@ -135,18 +145,18 @@ data['argument_predictions'] = results
 #### WIBA-Stance
 Source: https://huggingface.co/armaniii/llama-stance-classification
 ```
-model = LlamaForSequenceClassification.from_pretrained("armaniii/llama-stance-classification",num_labels=3, torch_dtype.float16,device_map="auto",low_cpu_mem_usage = True, token=YOUR_HF_TOKEN_HERE, quantization_config = bnb_config)
-tokenizer = AutoTokenizer.from_pretrained("armaniii/llama-3-8b-argument-detection",use_fast = False)
+from huggingface_hub import snapshot_download
+hf_repo_url = "armaniii/llama-stance-classification"
+local_directory = "/path/to/your/directory/"
+
+snapshot_download(repo_id=hf_repo_url,cache_dir=local_directory)
+
+tokenizer = AutoTokenizer.from_pretrained(local_directory)
+model = AutoModelForSequenceClassification.from_pretrained(local_directory,num_labels=3, torch_dtype.float16,device_map="auto",token=YOUR_HF_TOKEN_HERE,local_files_only=True)
 model.eval()
 
-tokenizer_arg.add_special_tokens({'unk_token': '[UNK]'})
-tokenizer_arg.padding_side = "right"
-tokenizer_arg.pad_token = tokenizer_arg.unk_token
-model_arg.config.pad_token_id = tokenizer_arg.pad_token_id
-model_arg.resize_token_embeddings(len(tokenizer_arg))
-
 # Using Pipeline
-pipe = pipeline(task="text-classification", model=model_arg, tokenizer=tokenizer_arg,padding=True,truncation=True,device_map="auto",max_length=2048,torch_dtype=torch.float16)
+pipe = pipeline(task="text-classification", model=model, tokenizer=tokenizer_arg,padding=True,truncation=True,device_map="auto",max_length=2048,torch_dtype=torch.float16)
 
 data= data.map(lambda x: {"sentence":[ f"[INST] <<SYS>>\n{system_message.strip()}\n<</SYS>>\n\n" + "Target: '" + topic +"' Text: '" +inputs  + "' [/INST] " for topic,inputs in zip(x['topic'],x['text'])]}, batched=True)
 inputs = data['sentence']
