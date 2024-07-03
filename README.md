@@ -93,7 +93,7 @@ from huggingface_hub import snapshot_download
 hf_repo_url = "armaniii/llama-3-8b-argument-detection"
 local_directory = "/path/to/your/directory/"
 
-snapshot_download(repo_id=hf_repo_url,cache_dir=local_directory)
+snapshot_download(repo_id=hf_repo_url,local_dir=local_directory)
 
 tokenizer = AutoTokenizer.from_pretrained(local_directory)
 model = AutoModelForSequenceClassification.from_pretrained(local_directory,num_labels=2, torch_dtype.float16,device_map="auto",token=YOUR_HF_TOKEN_HERE,local_files_only=True)
@@ -149,7 +149,7 @@ from huggingface_hub import snapshot_download
 hf_repo_url = "armaniii/llama-stance-classification"
 local_directory = "/path/to/your/directory/"
 
-snapshot_download(repo_id=hf_repo_url,cache_dir=local_directory)
+snapshot_download(repo_id=hf_repo_url,local_dir=local_directory)
 
 tokenizer = AutoTokenizer.from_pretrained(local_directory)
 model = AutoModelForSequenceClassification.from_pretrained(local_directory,num_labels=3, torch_dtype.float16,device_map="auto",token=YOUR_HF_TOKEN_HERE,local_files_only=True)
