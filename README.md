@@ -15,7 +15,6 @@ The WIBA API is now available! Easily integrate argument detection, topic extrac
    - [WIBA-Extract](#wiba-extract)
    - [WIBA-Stance](#wiba-stance)
 4. [**NEW** API Release](#new-api-release)
-   - [Using the API](#using-the-api)
    - [Example Script](#example-script)
 5. [WIBA Platform](#wiba-platform)
    - [Submit a bug](#submit-a-bug)
