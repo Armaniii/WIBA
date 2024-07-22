@@ -15,7 +15,9 @@ The WIBA API is now available! Easily integrate argument detection, topic extrac
    - [WIBA-Extract](#wiba-extract)
    - [WIBA-Stance](#wiba-stance)
 4. [**NEW** API Release](#new-api-release)
-   - [Example Script](#example-script)
+   - [Using the API](#using-the-api)
+   - [Python Example Script](#python-example-script)
+   - [R Example Script](#r-example-script)
 5. [WIBA Platform](#wiba-platform)
    - [Submit a bug](#submit-a-bug)
 6. [Data](#data)
@@ -178,6 +180,7 @@ data['argument_predictions'] = results
 ```
 ### **NEW** API Release
 The WIBA API is now available! Easily integrate argument detection, topic extraction, and stance identification into your projects. Below is a guide on how to use the API.
+#### Using the API
 1. Install the necessary libraries:
 ```
 pip install requests
@@ -191,7 +194,25 @@ pip install requests
     "I believe in climate change because of the overwhelming scientific evidence.","climate change"
     ```
 
-#### Example Script
+### Example: Reading a CSV File and Using the WIBA API in Python
+
+The following example demonstrates how to read a CSV file, extract a column, and pass the data into the WIBA API for argument detection, topic extraction, and stance identification using Python. The extracted topics from WIBA-Extract will be used for WIBA-Stance.
+
+#### Prerequisites
+
+1. Install the necessary libraries:
+    ```bash
+    pip install pandas requests
+    ```
+
+2. Ensure your CSV file (e.g., `data.csv`) has the column you want to analyze. For instance:
+    ```csv
+    text
+    "The government should increase funding for education."
+    "I believe in climate change because of the overwhelming scientific evidence."
+    ```
+
+#### **Python Example Script:**
 
 ```python
 import pandas as pd
@@ -204,12 +225,14 @@ data = pd.read_csv(csv_file_path)
 # Extract the text column
 texts = data['text'].tolist()
 
+# API URL
+api_url = "http://wiba.dev/api"
+
 # Example for WIBA-Detect
 detect_payload = {
     "texts": texts
 }
 
-api_url = "http://wiba.dev/api"
 detect_response = requests.post(f"{api_url}/detect", json=detect_payload)
 print("WIBA-Detect Response:", detect_response.json())
 
@@ -219,25 +242,101 @@ extract_payload = {
 }
 
 extract_response = requests.post(f"{api_url}/extract", json=extract_payload)
+extracted_topics = extract_response.json()["results"]
+data["topic"] = extracted_topics
+
 print("WIBA-Extract Response:", extract_response.json())
 
 # Example for WIBA-Stance
-# Ensure your CSV file has a 'topic' column for WIBA-Stance
-if 'topic' in data.columns:
-    topics = data['topic'].tolist()
-    
-    stance_payload = {
-        "texts": texts,
-        "topics": topics
-    }
-    
-    stance_response = requests.post(f"{api_url}/stance", json=stance_payload)
-    print("WIBA-Stance Response:", stance_response.json())
-else:
-    print("The CSV file does not contain a 'topic' column required for WIBA-Stance.")
+stance_payload = {
+    "texts": texts,
+    "topics": extracted_topics
+}
 
+stance_response = requests.post(f"{api_url}/stance", json=stance_payload)
+print("WIBA-Stance Response:", stance_response.json())
 ```
 
+### Example: Reading a CSV File and Using the WIBA API in R
+#### **R Example Script:**
+
+The following example demonstrates how to read a CSV file, extract a column, and pass the data into the WIBA API for argument detection, topic extraction, and stance identification using R.
+
+#### Prerequisites
+
+1. Install the necessary packages:
+    ```r
+    install.packages("httr")
+    install.packages("jsonlite")
+    install.packages("readr")
+    ```
+
+2. Ensure your CSV file (e.g., `data.csv`) has the column you want to analyze. For instance:
+    ```csv
+    text
+    "The government should increase funding for education."
+    "I believe in climate change because of the overwhelming scientific evidence."
+    ```
+
+#### Example Script
+
+```r
+library(httr)
+library(jsonlite)
+library(readr)
+
+# Load CSV file
+csv_file_path <- 'data.csv'
+data <- read_csv(csv_file_path)
+
+# Extract the text column
+texts <- data$text
+
+# API URL
+api_url <- "http://wiba.dev/api"
+
+# Example for WIBA-Detect
+detect_payload <- toJSON(list(texts = texts))
+
+detect_response <- POST(
+  url = paste0(api_url, "/detect"),
+  body = detect_payload,
+  encode = "json",
+  content_type_json()
+)
+
+cat("WIBA-Detect Response:\n")
+print(content(detect_response, "parsed"))
+
+# Example for WIBA-Extract
+extract_payload <- toJSON(list(texts = texts))
+
+extract_response <- POST(
+  url = paste0(api_url, "/extract"),
+  body = extract_payload,
+  encode = "json",
+  content_type_json()
+)
+
+extracted_topics <- content(extract_response, "parsed")$results
+data$topic <- extracted_topics
+
+cat("WIBA-Extract Response:\n")
+print(extracted_topics)
+
+# Example for WIBA-Stance
+stance_payload <- toJSON(list(texts = texts, topics = extracted_topics))
+
+stance_response <- POST(
+  url = paste0(api_url, "/stance"),
+  body = stance_payload,
+  encode = "json",
+  content_type_json()
+)
+
+cat("WIBA-Stance Response:\n")
+print(content(stance_response, "parsed"))
+```
 
 
 ### WIBA Platform
