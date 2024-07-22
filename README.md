@@ -179,7 +179,6 @@ data['argument_predictions'] = results
 ```
 ### **NEW** API Release
 The WIBA API is now available! Easily integrate argument detection, topic extraction, and stance identification into your projects. Below is a guide on how to use the API.
-Using the API
 1. Install the necessary libraries:
 ```
 pip install requests
