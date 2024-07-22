@@ -3,6 +3,9 @@
  <p align="center">
  <img src="images/pipeline_v2.png" width="400 height = 400 align=right">
  </p>
+ 
+## 🚀 **NEW** API Release
+The WIBA API is now available! Easily integrate argument detection, topic extraction, and stance identification into your projects. Check out the [API Documentation](#new-api-release) for more details and example usage.
 
  ## Table of Contents
 1. [Overview](#overview)
@@ -11,6 +14,9 @@
    - [WIBA-Detect](#wiba-detect)
    - [WIBA-Extract](#wiba-extract)
    - [WIBA-Stance](#wiba-stance)
+4. [**NEW** API Release](#new-api-release)
+   - [Using the API](#using-the-api)
+   - [Example Script](#example-script)
 5. [WIBA Platform](#wiba-platform)
    - [Submit a bug](#submit-a-bug)
 6. [Data](#data)
@@ -171,6 +177,70 @@ for out in tqdm(pipe(prompts_generator,batch_size=4)):
        results.append('Argument Against')
 data['argument_predictions'] = results
 ```
+### **NEW** API Release
+The WIBA API is now available! Easily integrate argument detection, topic extraction, and stance identification into your projects. Below is a guide on how to use the API.
+Using the API
+1. Install the necessary libraries:
+```
+pip install requests
+```
+
+
+2. Ensure your CSV file (e.g., `data.csv`) has the column you want to analyze. For instance:
+    ```csv
+    text,topic
+    "The government should increase funding for education.","education"
+    "I believe in climate change because of the overwhelming scientific evidence.","climate change"
+    ```
+
+#### Example Script
+
+```python
+import pandas as pd
+import requests
+
+# Load CSV file
+csv_file_path = 'data.csv'
+data = pd.read_csv(csv_file_path)
+
+# Extract the text column
+texts = data['text'].tolist()
+
+# Example for WIBA-Detect
+detect_payload = {
+    "texts": texts
+}
+
+api_url = "http://wiba.dev/api"
+detect_response = requests.post(f"{api_url}/detect", json=detect_payload)
+print("WIBA-Detect Response:", detect_response.json())
+
+# Example for WIBA-Extract
+extract_payload = {
+    "texts": texts
+}
+
+extract_response = requests.post(f"{api_url}/extract", json=extract_payload)
+print("WIBA-Extract Response:", extract_response.json())
+
+# Example for WIBA-Stance
+# Ensure your CSV file has a 'topic' column for WIBA-Stance
+if 'topic' in data.columns:
+    topics = data['topic'].tolist()
+    
+    stance_payload = {
+        "texts": texts,
+        "topics": topics
+    }
+    
+    stance_response = requests.post(f"{api_url}/stance", json=stance_payload)
+    print("WIBA-Stance Response:", stance_response.json())
+else:
+    print("The CSV file does not contain a 'topic' column required for WIBA-Stance.")
+
+```
+
+
 
 ### WIBA Platform
 -------------
