@@ -5,7 +5,7 @@
  </p>
  
 ## 🚀 **NEW** API Release
-The WIBA API is now available! Easily integrate argument detection, topic extraction, and stance identification into your projects. Check out the [API Documentation](#new-api-release) for more details and example usage.
+The WIBA API is now available! Easily integrate argument detection, topic extraction, and stance identification into your projects. Check out the [API Documentation](#new-api-release) for more details and example usage. Access at [WIBA Docs](http://wiba/dev/redoc)
 
  ## Table of Contents
 1. [Overview](#overview)
