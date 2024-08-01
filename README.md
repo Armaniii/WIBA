@@ -16,8 +16,7 @@ The WIBA API is now available! Easily integrate argument detection, topic extrac
    - [WIBA-Stance](#wiba-stance)
 4. [**NEW** API Release](#new-api-release)
    - [Using the API](#using-the-api)
-   - [Python Example Script](#python-example-script)
-   - [R Example Script](#r-example-script)
+   - [Example Scripts](#example-scripts)
 5. [WIBA Platform](#wiba-platform)
    - [Submit a bug](#submit-a-bug)
 6. [Data](#data)
@@ -35,7 +34,11 @@ This repository contains the scripts necessary to create and reproduce the resul
 <img src="images/ATN_v2.PNG" width="400 height =400">
 </p>
 
+## Custom Fine-Tuning
 
+<details>
+ <summary>How to use this codebase to fine-tune your own Argument Mining LLM</summary>
+ 
 ### Custom Fine-Tuning
 --------------
 ```
@@ -88,8 +91,16 @@ elif task == "claim-topic-extraction":
      with open('/data/system_message_ctge.txt', 'r') as file:
          system_message = file.read()
 ```
+</details>
 
+
+## WIBA-Detect
+
+<details>
+<summary>How to use WIBA-Detect via Huggingface</summary>
+ 
 #### WIBA-Detect
+
 **Note:  LLaMa models are gated. Access their huggingface repo to request a token for access. https://huggingface.co/meta-llama/Meta-Llama-3-8B**
 
 - To use ungated WIBA-detect model with similar performance, replace model path with _"armaniii/mistral-argument-classification"_
@@ -122,6 +133,11 @@ for out in tqdm(pipe(prompts_generator,batch_size=4)):
 
 data['argument_predictions'] = results
 ```
+</details>
+
+## WIBA-Extract
+<details>
+<summary>How to use WIBA-Extract via Huggingface</summary>
 
 #### WIBA-Extract
 Source: https://huggingface.co/armaniii/llama-3-8b-claim-topic-extraction
@@ -148,8 +164,15 @@ for out in tqdm(pipe(prompts_generator,batch_size=4)):
 
 data['argument_predictions'] = results
 ```
+</details>
 
-#### WIBA-Stance
+## WIBA-STANCE 
+
+<details>
+<summary>How to use WIBA-Stance via Huggingface</summary>
+
+ 
+ #### WIBA-Stance
 Source: https://huggingface.co/armaniii/llama-stance-classification
 ```
 from huggingface_hub import snapshot_download
@@ -178,165 +201,34 @@ for out in tqdm(pipe(prompts_generator,batch_size=4)):
        results.append('Argument Against')
 data['argument_predictions'] = results
 ```
+</details>
+
 ### **NEW** API Release
 The WIBA API is now available! Easily integrate argument detection, topic extraction, and stance identification into your projects. Below is a guide on how to use the API.
 #### Using the API
 1. Install the necessary libraries:
-```
-pip install requests
-```
-
-
-2. Ensure your CSV file (e.g., `data.csv`) has the column you want to analyze. For instance:
-    ```csv
-    text,topic
-    "The government should increase funding for education.","education"
-    "I believe in climate change because of the overwhelming scientific evidence.","climate change"
-    ```
-
-### Example: Reading a CSV File and Using the WIBA API in Python
-
-The following example demonstrates how to read a CSV file, extract a column, and pass the data into the WIBA API for argument detection, topic extraction, and stance identification using Python. The extracted topics from WIBA-Extract will be used for WIBA-Stance.
 
 #### Prerequisites
 
-1. Install the necessary libraries:
+1. For Python, install the necessary libraries:
     ```bash
     pip install pandas requests
     ```
 
-2. Ensure your CSV file (e.g., `data.csv`) has the column you want to analyze. For instance:
-    ```csv
-    text
-    "The government should increase funding for education."
-    "I believe in climate change because of the overwhelming scientific evidence."
-    ```
-
-#### **Python Example Script:**
-
-```python
-import pandas as pd
-import requests
-
-# Load CSV file
-csv_file_path = 'data.csv'
-data = pd.read_csv(csv_file_path)
-
-# Extract the text column
-texts = data['text'].tolist()
-
-# API URL
-api_url = "http://wiba.dev/api"
-
-# Example for WIBA-Detect
-detect_payload = {
-    "texts": texts
-}
-
-detect_response = requests.post(f"{api_url}/detect", json=detect_payload)
-print("WIBA-Detect Response:", detect_response.json())
-
-# Example for WIBA-Extract
-extract_payload = {
-    "texts": texts
-}
-
-extract_response = requests.post(f"{api_url}/extract", json=extract_payload)
-extracted_topics = extract_response.json()["results"]
-data["topic"] = extracted_topics
-
-print("WIBA-Extract Response:", extract_response.json())
-
-# Example for WIBA-Stance
-stance_payload = {
-    "texts": texts,
-    "topics": extracted_topics
-}
-
-stance_response = requests.post(f"{api_url}/stance", json=stance_payload)
-print("WIBA-Stance Response:", stance_response.json())
-```
-
-### Example: Reading a CSV File and Using the WIBA API in R
-#### **R Example Script:**
-
-The following example demonstrates how to read a CSV file, extract a column, and pass the data into the WIBA API for argument detection, topic extraction, and stance identification using R.
-
-#### Prerequisites
-
-1. Install the necessary packages:
+2. For R, install the necessary packages:
     ```r
     install.packages("httr")
     install.packages("jsonlite")
     install.packages("readr")
     ```
+### Example Scripts
 
-2. Ensure your CSV file (e.g., `data.csv`) has the column you want to analyze. For instance:
-    ```csv
-    text
-    "The government should increase funding for education."
-    "I believe in climate change because of the overwhelming scientific evidence."
-    ```
+We have included several example scripts to help you get started. These scripts demonstrate how to use WIBA's API Programmatically on your data without the need for high-performance systems. You can find them in the [examples](./examples) directory.
 
-#### Example Script
+- **[wiba_api_example.py](./examples/wiba_api_example.py):** All API calls with payload and response examples in Python.
+- **[wiba_api_example.r](./examples/wiba_api_example.r):** All API calls with payload and response examples in R.
 
-```r
-library(httr)
-library(jsonlite)
-library(readr)
-
-# Load CSV file
-csv_file_path <- 'data.csv'
-data <- read_csv(csv_file_path)
-
-# Extract the text column
-texts <- data$text
-
-# API URL
-api_url <- "http://wiba.dev/api"
-
-# Example for WIBA-Detect
-detect_payload <- toJSON(list(texts = texts))
-
-detect_response <- POST(
-  url = paste0(api_url, "/detect"),
-  body = detect_payload,
-  encode = "json",
-  content_type_json()
-)
-
-cat("WIBA-Detect Response:\n")
-print(content(detect_response, "parsed"))
-
-# Example for WIBA-Extract
-extract_payload <- toJSON(list(texts = texts))
-
-extract_response <- POST(
-  url = paste0(api_url, "/extract"),
-  body = extract_payload,
-  encode = "json",
-  content_type_json()
-)
-
-extracted_topics <- content(extract_response, "parsed")$results
-data$topic <- extracted_topics
-
-cat("WIBA-Extract Response:\n")
-print(extracted_topics)
-
-# Example for WIBA-Stance
-stance_payload <- toJSON(list(texts = texts, topics = extracted_topics))
-
-stance_response <- POST(
-  url = paste0(api_url, "/stance"),
-  body = stance_payload,
-  encode = "json",
-  content_type_json()
-)
-
-cat("WIBA-Stance Response:\n")
-print(content(stance_response, "parsed"))
-```
+Feel free to explore and modify these scripts to fit your needs. Currently working on implementing progress feedback for API modules, note the speed over API is roughly ~15 rows/sec.
 
 
 ### WIBA Platform
