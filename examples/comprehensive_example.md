@@ -192,6 +192,15 @@ delib_intensity_df = di.calculate_deliberation_intensity(result_df)
 print("Deliberation Intensity Results:")
 print(delib_intensity_df)
 ```
+Example Output
+```python
+   thread_id  d_cluster    d_arg  num_arguments  num_turns   sigma_1   sigma_2       dis
+0          1   0.666667  0.352941              4          4  0.506842  0.493158  0.515114
+1          5   0.666667  0.352941              3          3  0.472477  0.527523  0.514127
+2          8   0.666667  0.352941              3          3  0.472477  0.527523  0.514127
+3         11   0.666667  0.352941              3          3  0.472477  0.527523  0.514127
+4         14   0.666667  0.352941              3          3  0.472477  0.527523  0.514127
+```
 
 #### **5.3. Visualizing Deliberation Intensity with ECDF**
 
@@ -209,3 +218,13 @@ di.plot_ecdf(delib_intensity_df)
 By leveraging the WIBA API and `delibtools`, we were able to detect arguments, extract key topics, analyze stances, and compute deliberation intensity from a sample dataset of Reddit-like posts.
 
 This pipeline can be extended and customized for larger datasets, offering a powerful method for analyzing online discussions and argumentation in various contexts.
+
+### **Further Reading and References**
+
+[WIBA: What Is Being Argued? A Comprehensive Approach to Argument Mining](https://arxiv.org/abs/2405.00828)
+
+[What Is Being Argued (WIBA)? An Application to Legislative Deliberation in the U.S. Congress](https://arxiv.org/abs/2407.06149)
+
+[ArguSense: Argument-Centric Analysis of Online Discourse](https://arxiv.org/abs/2405.15930)
+
+
