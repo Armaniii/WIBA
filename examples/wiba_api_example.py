@@ -123,7 +123,7 @@ def parse_input(input_data):
     return df
 # Example usage
 if __name__ == "__main__":
-    make_segments = False
+    make_segments = True
     # Create a sample dataframe with text data of arguments
     data = {
         'text': [
@@ -158,6 +158,12 @@ if __name__ == "__main__":
             stance_df = wiba_stance(texts, topics)
             print("Stance results:")
             print(stance_df)
+
+            # combine detect_df, extract_df, stance_df
+            result_df = pd.concat([detect_df, extract_df, stance_df], axis=1)
+            print("Combined results:")
+            print(result_df)
+
     else:
         detect_df = wiba_detect(df)
         print("Detection results:")
@@ -176,5 +182,10 @@ if __name__ == "__main__":
         stance_df = wiba_stance(texts, topics)
         print("Stance results:")
         print(stance_df)
+
+        # combine detect_df, extract_df, stance_df
+        result_df = pd.concat([detect_df, extract_df, stance_df], axis=1)
+        print("Combined results:")
+        print(result_df)
 
 
