@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-
+import json
 # Base URL of the API
 BASE_URL = 'http://wiba.dev/api'
 
@@ -48,8 +48,15 @@ def wiba_stance(texts, topics):
     """
     url = f"{BASE_URL}/stance"
     payload = {"texts": texts, "topics": topics}
+
     response = requests.post(url, json=payload)
-    return pd.DataFrame(response.json())
+    
+    if response.status_code == 200:
+        result = response.json()
+        return pd.DataFrame(result)  # Convert to DataFrame
+    else:
+        print(f"Error: {response.status_code}, {response.text}")
+        return None
 
 def create_segments(input_file, column_name, window_size=3):
     """
@@ -110,18 +117,49 @@ def calculate_segments(input_file, column_name, confidence_column):
     else:
         print(f"Error: {response.status_code}, {response.text}")
         return None
-
+def parse_input(input_data):
+    data = json.loads(input_data)
+    df = pd.DataFrame(data)
+    return df
 # Example usage
 if __name__ == "__main__":
-    # Load sample data
-    df = pd.read_csv("PATH/TO/YOUR/DATA")
-    print("Sample data:")
-    print(df.head())
-    create_segments_df = create_segments(df_csv, "text", 3)
+    make_segments = False
+    # Create a sample dataframe with text data of arguments
+    data = {
+        'text': [
+            "The new policy will help reduce traffic congestion in the city, so we should approve it.",
+            "The new policy will increase traffic congestion in the city because it will lead to more vehicles on the road.",
+            "The new policy will have no impact on traffic congestion in the city and is a waste of time."
+        ]
+    }
+    df = pd.DataFrame(data)
 
-    if create_segments_df is not None:
-        # Detect texts
-        detect_df = wiba_detect(create_segments_df)
+   
+    if make_segments:
+        df = df.to_csv(index=False)
+        create_segments_df = create_segments(df, "text", 3)
+        print(create_segments_df)
+        if create_segments_df is not None:
+            # Detect texts
+            detect_df = wiba_detect(create_segments_df)
+            print("Detection results:")
+            print(detect_df)
+
+            # Extract topics from texts
+            texts = detect_df['text'].tolist()
+            extract_df = wiba_extract(texts)
+            print("Extraction results:")
+            print(extract_df)
+            # rename extracted_topic to topic
+            extract_df = extract_df.rename(columns={"extracted_topic": "topic"})
+
+            # Analyze stance on topics
+            topics = extract_df['topic'].tolist()
+            stance_df = wiba_stance(texts, topics)
+            print("Stance results:")
+            print(stance_df)
+    else:
+        detect_df = wiba_detect(df)
         print("Detection results:")
         print(detect_df)
 
@@ -130,6 +168,8 @@ if __name__ == "__main__":
         extract_df = wiba_extract(texts)
         print("Extraction results:")
         print(extract_df)
+        # rename extracted_topic to topic
+        extract_df = extract_df.rename(columns={"extracted_topic": "topic"})
 
         # Analyze stance on topics
         topics = extract_df['topic'].tolist()
@@ -137,10 +177,4 @@ if __name__ == "__main__":
         print("Stance results:")
         print(stance_df)
 
-        # Calculate segments
-        detect_csv = detect_df.to_csv(index=False)
-        segments = calculate_segments(detect_csv, 'text', 'argument_confidence')
-        if segments is not None:
-            print("Calculated segments:")
-            print(segments)
 
