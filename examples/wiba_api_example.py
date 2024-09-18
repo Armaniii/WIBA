@@ -114,7 +114,7 @@ def calculate_segments(input_file, column_name, confidence_column):
 # Example usage
 if __name__ == "__main__":
     # Load sample data
-    df = pd.read_csv("c:/users/arman/workspace/phd/arman/wibaforcongress/dataforllm/df_race_speech.csv")
+    df = pd.read_csv("PATH/TO/YOUR/DATA")
     print("Sample data:")
     print(df.head())
 
