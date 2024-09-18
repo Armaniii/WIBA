@@ -117,9 +117,6 @@ if __name__ == "__main__":
     df = pd.read_csv("PATH/TO/YOUR/DATA")
     print("Sample data:")
     print(df.head())
-
-    # Create segments
-    df_csv = df.to_csv(index=False)
     create_segments_df = create_segments(df_csv, "text", 3)
 
     if create_segments_df is not None:
