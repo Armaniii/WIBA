@@ -172,12 +172,24 @@ print(result_df)
 ### **5. Using `delibtools` for Deliberation Intensity Analysis**
 
 The `delibtools` package allows us to measure the deliberation intensity of discussions in the dataset, focusing on argument clusters, argumentativeness, and deliberation depth.
+```python
+from delibtools import DeliberationIntensity, utils
+```
 
-#### **5.1. Initialize DeliberationIntensity Class**
+#### **5.0. Initialize DeliberationIntensity Class**
 
 ```python
 di = DeliberationIntensity(verbose=True)
 ```
+Set verbose=True for outputting progress bars.
+
+#### **5.1. Generating Thread IDs**
+`The delibtools` package allows for finding and assigning posts that are found within the same tree-like structure of a reply-post network to a unique thread id.
+
+```python
+df['thread_id'] = utils.assign_reddit_threads(df)
+```
+
 
 #### **5.2. Calculating Deliberation Intensity**
 
