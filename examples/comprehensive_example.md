@@ -70,6 +70,39 @@ df.head()
 #### **4.0. Creating Text Segments** (Optional)
 The `create_segments` endpoint allows you to break long arguments into smaller parts, which is useful for applying argument detection and stance analysis on segments of a larger text.
 ```python
+
+def create_segments(input_file, column_name, window_size=3):
+    """
+    Create text segments using the API's create_segments endpoint.
+    
+    Args:
+        input_file (str): CSV file content as a string.
+        column_name (str): Name of the column containing text to segment.
+        window_size (int, optional): Size of the sliding window. Defaults to 3.
+    
+    Returns:
+        pandas.DataFrame: Created segments.
+    """
+    url = f"{BASE_URL}/create_segments"
+    payload = {
+        "data": input_file,
+        "column_name": column_name,
+        "window_size": window_size,
+        "step_size": 1
+    }
+    response = requests.post(url, json=payload)
+    
+    if response.status_code == 200:
+        result_csv = response.json()
+        segments_df = pd.DataFrame(result_csv)
+        print("Created segments:")
+        print(segments_df)
+        return segments_df
+    else:
+        print(f"Error: {response.status_code}, {response.text}")
+        return None
+
+
 # Convert DataFrame to CSV format
 csv_data = df.to_csv(index=False)
 
