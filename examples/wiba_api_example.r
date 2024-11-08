@@ -46,9 +46,16 @@ create_segments <- function(input_data, column_name, window_size = 3) {
 # Function to detect arguments
 wiba_detect <- function(df) {
   url <- paste0(BASE_URL, "/detect")
+
+  df_tmp = df
+  if (!is.null(df$text_segment)) {
+    df_tmp$original_text <- df_tmp$text
+    df_tmp$text <- df_tmp$text_segment
+  }
+
   
   # Convert data frame to CSV string
-  csv_string <- capture.output(write.csv(df, row.names = FALSE))
+  csv_string <- capture.output(write.csv(df_tmp, row.names = FALSE))
   csv_string <- paste(csv_string, collapse = "\n")
   
   payload <- list(texts = csv_string)
