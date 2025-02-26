@@ -8,11 +8,12 @@ library(tidyverse)
 library(httr)
 library(jsonlite)
 
-# Base URL for WIBA API
-BASE_URL <- "http://wiba.dev/api"
+# Configuration
+BASE_URL <- "http://wiba.dev/api"  # Update to your actual server URL
+API_TOKEN <- "your_api_token_here"  # Add your API token
 
 # Function to create segments
-create_segments <- function(input_data, column_name, window_size = 3) {
+create_segments <- function(input_data, column_name, window_size = 3, api_token = API_TOKEN) {
   url <- paste0(BASE_URL, "/create_segments")
   
   # Convert data frame to CSV string
@@ -29,22 +30,30 @@ create_segments <- function(input_data, column_name, window_size = 3) {
   response <- POST(
     url,
     body = payload,
-    encode = "json"
+    encode = "json",
+    add_headers("X-API-Token" = api_token)  # Add API token header
   )
   
   if (status_code(response) == 200) {
     result <- fromJSON(rawToChar(response$content))
     segments_df <- as.data.frame(result)
     print("Created segments:")
-    print(segments_df)
+    print(head(segments_df))
     return(segments_df)
   } else {
-    stop(paste("Error:", status_code(response), content(response)))
+    # Enhanced error handling
+    error_message <- tryCatch({
+      error_content <- fromJSON(rawToChar(response$content))
+      paste("Error:", status_code(response), error_content$detail)
+    }, error = function(e) {
+      paste("Error:", status_code(response), "Could not parse error response")
+    })
+    stop(error_message)
   }
 }
 
 # Function to detect arguments
-wiba_detect <- function(df) {
+wiba_detect <- function(df, api_token = API_TOKEN) {
   url <- paste0(BASE_URL, "/detect")
 
   df_tmp = df
@@ -53,7 +62,6 @@ wiba_detect <- function(df) {
     df_tmp$text <- df_tmp$text_segment
   }
 
-  
   # Convert data frame to CSV string
   csv_string <- capture.output(write.csv(df_tmp, row.names = FALSE))
   csv_string <- paste(csv_string, collapse = "\n")
@@ -63,19 +71,27 @@ wiba_detect <- function(df) {
   response <- POST(
     url,
     body = payload,
-    encode = "json"
+    encode = "json",
+    add_headers("X-API-Token" = api_token)  # Add API token header
   )
   
   if (status_code(response) == 200) {
     result <- fromJSON(rawToChar(response$content))
     return(as.data.frame(result))
   } else {
-    stop(paste("Error:", status_code(response), content(response)))
+    # Enhanced error handling
+    error_message <- tryCatch({
+      error_content <- fromJSON(rawToChar(response$content))
+      paste("Error:", status_code(response), error_content$detail)
+    }, error = function(e) {
+      paste("Error:", status_code(response), "Could not parse error response")
+    })
+    stop(error_message)
   }
 }
 
 # Function to extract topics
-wiba_extract <- function(texts) {
+wiba_extract <- function(texts, api_token = API_TOKEN) {
   url <- paste0(BASE_URL, "/extract")
   
   payload <- list(texts = texts)
@@ -83,19 +99,27 @@ wiba_extract <- function(texts) {
   response <- POST(
     url,
     body = payload,
-    encode = "json"
+    encode = "json",
+    add_headers("X-API-Token" = api_token)  # Add API token header
   )
   
   if (status_code(response) == 200) {
     result <- fromJSON(rawToChar(response$content))
     return(as.data.frame(result))
   } else {
-    stop(paste("Error:", status_code(response), content(response)))
+    # Enhanced error handling
+    error_message <- tryCatch({
+      error_content <- fromJSON(rawToChar(response$content))
+      paste("Error:", status_code(response), error_content$detail)
+    }, error = function(e) {
+      paste("Error:", status_code(response), "Could not parse error response")
+    })
+    stop(error_message)
   }
 }
 
 # Function to analyze stance
-wiba_stance <- function(texts, topics) {
+wiba_stance <- function(texts, topics, api_token = API_TOKEN) {
   url <- paste0(BASE_URL, "/stance")
   
   payload <- list(
@@ -106,14 +130,36 @@ wiba_stance <- function(texts, topics) {
   response <- POST(
     url,
     body = payload,
-    encode = "json"
+    encode = "json",
+    add_headers("X-API-Token" = api_token)  # Add API token header
   )
   
   if (status_code(response) == 200) {
     result <- fromJSON(rawToChar(response$content))
     return(as.data.frame(result))
   } else {
-    stop(paste("Error:", status_code(response), content(response)))
+    # Enhanced error handling
+    error_message <- tryCatch({
+      error_content <- fromJSON(rawToChar(response$content))
+      paste("Error:", status_code(response), error_content$detail)
+    }, error = function(e) {
+      paste("Error:", status_code(response), "Could not parse error response")
+    })
+    stop(error_message)
+  }
+}
+
+# Function to get a demo token if needed
+get_demo_token <- function() {
+  url <- paste0(BASE_URL, "/demo-token")
+  
+  response <- GET(url)
+  
+  if (status_code(response) == 200) {
+    result <- fromJSON(rawToChar(response$content))
+    return(result$token)
+  } else {
+    stop(paste("Error getting demo token:", status_code(response)))
   }
 }
 
@@ -161,34 +207,45 @@ create_example_dataset <- function() {
 }
 
 # Example usage
-main <- function() {
+main <- function(api_token = NULL) {
+  # Get a demo token if no API token is provided
+  if (is.null(api_token)) {
+    cat("No API token provided. Attempting to get a demo token...\n")
+    api_token <- get_demo_token()
+    cat("Using demo token:", substr(api_token, nchar(api_token)-7, nchar(api_token)), "...\n")
+  }
+  
   # Create example dataset
   df <- create_example_dataset()
   print("Created example dataset:")
   print(head(df))
   
   # Create segments
-  segments_df <- create_segments(df, "text", window_size = 3)
+  segments_df <- create_segments(df, "text", window_size = 3, api_token = api_token)
   
   # Detect arguments
-  detect_df <- wiba_detect(df)
+  detect_df <- wiba_detect(df, api_token = api_token)
   print("\nDetected arguments:")
   print(head(detect_df))
   
   # Extract topics
   texts <- detect_df$text
-  extract_df <- wiba_extract(texts)
+  extract_df <- wiba_extract(texts, api_token = api_token)
   print("\nExtracted topics:")
   print(head(extract_df))
   
   # Analyze stance
-  topics <- extract_df$topic
-  stance_df <- wiba_stance(texts, topics)
+  topics <- extract_df$extracted_topic  # Note: column name may be different based on API response
+  stance_df <- wiba_stance(texts, topics, api_token = api_token)
   print("\nStance analysis:")
   print(head(stance_df))
   
-  # Combine results
-  result_df <- bind_cols(detect_df, extract_df, stance_df)
+  # Combine results (adjust column names as needed based on actual API responses)
+  result_df <- detect_df
+  result_df$extracted_topic <- extract_df$extracted_topic
+  result_df$stance_prediction <- stance_df$stance_prediction
+  result_df$stance_confidence <- stance_df$stance_confidence
+  
   print("\nCombined results:")
   print(head(result_df))
   
@@ -204,4 +261,9 @@ main <- function() {
 }
 
 # Example of running the analysis
-results <- main()
+# Uncomment and run:
+# API_TOKEN <- "your_api_token_here"  # Replace with your actual token
+# results <- main(API_TOKEN)
+# 
+# # Or to use a demo token:
+# results <- main()
